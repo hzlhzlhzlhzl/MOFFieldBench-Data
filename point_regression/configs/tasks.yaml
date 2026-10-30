@@ -1,0 +1,15 @@
+# The 13 property-prediction targets used by run_property_suite.py.
+tasks:
+  - ASA
+  - Df
+  - Di
+  - POAVAf
+  - Density
+  - post-combustion-vsa__selectivity
+  - post-combustion-vsa__wt%_working_capacity
+  - natural-gas-purification__selectivity
+  - natural-gas-purification__purity
+  - landfill-gas-vpsa__selectivity
+  - methane-storage-psa__v/v_uptake
+  - methane-storage-psa__wt%_uptake
+  - pre-combustion-40-40__selectivity

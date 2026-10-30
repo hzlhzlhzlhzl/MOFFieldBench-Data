@@ -1,0 +1,27 @@
+seed: 42
+data:
+  manifest_csv: ${QMOF_MANIFEST:-data/manifests/qmof_bandgap_manifest.csv}
+  id_column: qmof_id
+  manifest_split_column: split
+  point_path_column: esp_path
+  target_column: bandgap
+  feature_blocks: [xyz, esp, frac_pe]
+  frac_pe_frequencies: 2
+  augment: false
+  normalize_xyz: true
+model:
+  name: pointnet
+  hidden_dim: 128
+  dropout: 0.1
+training:
+  output_dir: runs/bandgap_esp
+  device: auto
+  epochs: 100
+  batch_size: 32
+  num_workers: 4
+  pin_memory: true
+  lr: 0.0003
+  weight_decay: 0.0001
+  grad_clip: 1.0
+  normalize_target: true
+  target_transform: none

@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+data/dataset_manifest.json
+data/labels/*
+data/cif/*
+data/point_clouds/*
+data/point_packs/*
+results/runs/

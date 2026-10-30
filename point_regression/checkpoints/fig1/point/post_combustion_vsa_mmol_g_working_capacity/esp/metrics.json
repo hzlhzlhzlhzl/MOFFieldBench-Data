@@ -1,0 +1,24 @@
+{
+  "target_column": "post-combustion-vsa__mmol/g_working_capacity",
+  "point_cloud_variant": "esp_highest_lowest_5pct",
+  "num_points": 8192,
+  "model_name": "x3d",
+  "feature_blocks": [
+    "xyz",
+    "esp",
+    "frac_pe"
+  ],
+  "frac_pe_frequencies": 1,
+  "target_transform": "none",
+  "dataset_sizes": {
+    "train": 19877,
+    "val": 2484,
+    "test": 2486
+  },
+  "best_val_rmse": 0.4208637475967407,
+  "test_metrics": {
+    "mae": 0.2605881094932556,
+    "rmse": 0.43304717540740967,
+    "r2": 0.6662222243974334
+  }
+}

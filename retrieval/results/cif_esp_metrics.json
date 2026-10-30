@@ -1,0 +1,40 @@
+{
+  "dataset_sizes": {
+    "train": 32274,
+    "val": 4034,
+    "test": 4035
+  },
+  "best_val_metrics": {
+    "cif_to_point": {
+      "Recall@1": 0.5200793257312841,
+      "Recall@5": 0.8346554288547348,
+      "Recall@10": 0.90233019335647,
+      "MRR": 0.6575654454770983,
+      "MedianRank": 1.0
+    },
+    "point_to_cif": {
+      "Recall@1": 0.5163609320773426,
+      "Recall@5": 0.8287059990084283,
+      "Recall@10": 0.9005949429846306,
+      "MRR": 0.6525658036469634,
+      "MedianRank": 1.0
+    }
+  },
+  "best_test_metrics": {
+    "cif_to_point": {
+      "Recall@1": 0.5231722428748451,
+      "Recall@5": 0.8232961586121438,
+      "Recall@10": 0.890458488228005,
+      "MRR": 0.656078613139176,
+      "MedianRank": 1.0
+    },
+    "point_to_cif": {
+      "Recall@1": 0.5169764560099133,
+      "Recall@5": 0.8106567534076827,
+      "Recall@10": 0.8845105328376703,
+      "MRR": 0.6491809876873083,
+      "MedianRank": 1.0
+    }
+  },
+  "output_dir": "outputs_full/cifesp_e3_n4096_fpe2"
+}

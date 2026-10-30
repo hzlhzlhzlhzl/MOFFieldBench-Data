@@ -1,0 +1,40 @@
+seed: 42
+data:
+  point_root: ${MOF_ED_ROOT:-data/ED_fps/non_periodic}
+  # Optional downstream regression: labels are supplied externally, never bundled in data/.
+  label_csv: ${MOF_LABELS:-/path/to/labels.csv}
+  split_csv: ${MOF_SPLITS:-/path/to/splits.csv}
+  point_cloud_variant: density_0.03
+  point_file_template: 'density_gt_{variant_suffix}_nonperiodic_fps_{num_points}.ply'
+  num_points: 6144
+  nonperiodic_dirname: nonperiodic_fps
+  target_column: Df
+  feature_blocks: [xyz, density, frac_pe]
+  frac_pe_frequencies: 2
+  augment: false
+  normalize_xyz: true
+  strict_split_coverage: true
+model:
+  name: x3d
+  sampler: fps
+  fps_backend: native
+  width: 32
+  blocks: [1, 2, 2, 2, 1]
+  strides: [1, 4, 4, 4, 4]
+  nsample: 16
+  radius: 0.2
+  expansion: 4
+  hidden_dim: 128
+  dropout: 0.1
+training:
+  output_dir: outputs/model_ed
+  device: auto
+  epochs: 50
+  batch_size: 8
+  num_workers: 2
+  pin_memory: true
+  lr: 0.0003
+  weight_decay: 0.0001
+  grad_clip: 1.0
+  normalize_target: true
+  target_transform: none

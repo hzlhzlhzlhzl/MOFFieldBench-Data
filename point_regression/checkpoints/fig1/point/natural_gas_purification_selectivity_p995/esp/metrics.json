@@ -1,0 +1,24 @@
+{
+  "target_column": "natural-gas-purification__selectivity",
+  "point_cloud_variant": "esp_highest_lowest_5pct",
+  "num_points": 8192,
+  "model_name": "x3d",
+  "feature_blocks": [
+    "xyz",
+    "esp",
+    "frac_pe"
+  ],
+  "frac_pe_frequencies": 2,
+  "target_transform": "none",
+  "dataset_sizes": {
+    "train": 19777,
+    "val": 2470,
+    "test": 2477
+  },
+  "best_val_rmse": 3.060793876647949,
+  "test_metrics": {
+    "mae": 1.350994348526001,
+    "rmse": 2.9495692253112793,
+    "r2": 0.5380241387320567
+  }
+}

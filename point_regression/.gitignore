@@ -1,0 +1,5 @@
+data/manifests/qmof_bandgap_manifest.csv
+runs/
+*.npy
+*.ply
+__pycache__/

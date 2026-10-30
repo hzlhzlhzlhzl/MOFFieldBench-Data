@@ -1,0 +1,41 @@
+seed: 42
+data:
+  # Substitute MOF_ED_ROOT in your shell, or edit this path.
+  point_root: ${MOF_ED_ROOT:-/path/to/ED_fps/non_periodic}
+  label_csv: ${MOF_PROPERTY_LABELS:-data/labels/selected_mofs_wide.csv}
+  point_cloud_variant: density_0.03
+  point_file_template: density_gt_{variant_suffix}_nonperiodic_fps_{num_points}.ply
+  num_points: 8192
+  nonperiodic_dirname: nonperiodic_fps
+  target_column: ASA
+  feature_blocks: [xyz, density, frac_pe]
+  frac_pe_frequencies: 2
+  augment: false
+  normalize_xyz: true
+  split: {train_ratio: 0.8, val_ratio: 0.1, test_ratio: 0.1}
+model:
+  name: x3d
+  width: 32
+  blocks: [1, 2, 2, 2, 1]
+  strides: [1, 4, 4, 4, 4]
+  nsample: 16
+  radius: 0.2
+  aggr_feature_type: dp_fj
+  expansion: 4
+  sa_layers: 1
+  sa_use_res: false
+  x3d_layers: [false, false, false, true, true]
+  sampler: fps
+  fps_backend: native
+training:
+  output_dir: runs/property_ed
+  device: auto
+  epochs: 100
+  batch_size: 8
+  num_workers: 4
+  pin_memory: true
+  lr: 0.0003
+  weight_decay: 0.0001
+  grad_clip: 1.0
+  normalize_target: true
+  target_transform: none

@@ -1,0 +1,24 @@
+{
+  "target_column": "Di",
+  "point_cloud_variant": "density_0.02",
+  "num_points": 4096,
+  "model_name": "x3d",
+  "feature_blocks": [
+    "xyz",
+    "density",
+    "frac_pe"
+  ],
+  "frac_pe_frequencies": 3,
+  "target_transform": "none",
+  "dataset_sizes": {
+    "train": 32274,
+    "val": 4034,
+    "test": 4035
+  },
+  "best_val_rmse": 0.8705780506134033,
+  "test_metrics": {
+    "mae": 0.563743531703949,
+    "rmse": 0.8827299475669861,
+    "r2": 0.9565250279194365
+  }
+}

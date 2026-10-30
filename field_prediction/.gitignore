@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.venv/
+outputs/*
+!outputs/.gitkeep
+data/raw/**/*
+!data/raw/**/
+!data/raw/**/.gitkeep

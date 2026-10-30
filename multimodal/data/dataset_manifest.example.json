@@ -1,0 +1,29 @@
+{
+  "_instruction": "Copy this file to dataset_manifest.json, replace every <...> value with local absolute paths, then pass --data-manifest dataset_manifest.json. Raw data are intentionally not distributed in this package.",
+  "datasets": {
+    "moffieldbench": {
+      "point_root": "<POINT_CLOUD_ROOT>",
+      "label_csv": "<MOFFIELDBENCH_LABELS.csv>",
+      "label_id_column": "base",
+      "split_csv": "<MOFFIELDBENCH_SPLITS.csv>",
+      "split_id_column": "id",
+      "cif_data_root_template": "<MOFFIELDBENCH_CIF_ROOT>/{safe_target}"
+    },
+    "qmof": {
+      "point_root": "<POINT_CLOUD_ROOT>",
+      "label_csv": "<QMOF_MANIFEST.csv>",
+      "label_id_column": "qmof_id",
+      "split_csv": "<QMOF_BANDGAP_SPLITS.csv>",
+      "split_id_column": "id",
+      "cif_data_root_by_task": {"bandgap": "<QMOF_BANDGAP_CIF_DATA_ROOT>"}
+    }
+  },
+  "point_cloud_variants": {
+    "esp_default": {"point_cloud_variant": "esp_highest_lowest_5pct", "num_points": 8192, "point_subdir": "nonperiodic_fps", "point_file_template": "{variant}_nonperiodic_fps_{num_points}.ply", "point_pack_path": "<ESP5_8192_PACK.npy>", "feature_blocks": ["xyz", "esp", "frac_pe"], "frac_pe_frequencies": 2},
+    "ed_default": {"point_cloud_variant": "ed_threshold_0p02", "num_points": 4096, "point_subdir": "nonperiodic_fps", "point_file_template": "{variant}_nonperiodic_fps_{num_points}.ply", "point_pack_path": "<ED002_4096_PACK.npy>", "feature_blocks": ["xyz", "density", "frac_pe"], "frac_pe_frequencies": 2},
+    "esp_topk3_10240": {"point_cloud_variant": "esp_topk3", "num_points": 10240, "point_pack_path": "<ESP_TOPK3_10240_PACK.npy>", "feature_blocks": ["esp", "frac_pe"], "frac_pe_frequencies": 1},
+    "ed_threshold_0p03": {"point_cloud_variant": "ed_threshold_0p03", "num_points": 8192, "point_pack_path": "<ED003_8192_PACK.npy>", "feature_blocks": ["density", "frac_pe"], "frac_pe_frequencies": 1},
+    "ed_threshold_0p05": {"point_cloud_variant": "ed_threshold_0p05", "num_points": 8192, "point_pack_path": "<ED005_8192_PACK.npy>", "feature_blocks": ["density", "frac_pe"], "frac_pe_frequencies": 1},
+    "ed_topk2_8192": {"point_cloud_variant": "ed_topk2", "num_points": 8192, "point_pack_path": "<ED_TOPK2_8192_PACK.npy>", "feature_blocks": ["density", "frac_pe"], "frac_pe_frequencies": 1}
+  }
+}

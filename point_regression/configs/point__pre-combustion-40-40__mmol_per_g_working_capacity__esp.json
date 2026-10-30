@@ -1,0 +1,60 @@
+{
+  "seed": 42,
+  "data": {
+    "point_root": "external/EPS_fps/non_periodic",
+    "label_csv": "external/test_point/data/expanded_mof_1p5w/combined_mofs_wide.csv",
+    "point_cloud_variant": "esp_highest_lowest_5pct",
+    "num_points": 10240,
+    "nonperiodic_dirname": "nonperiodic_fps",
+    "target_column": "pre-combustion-40-40__mmol/g_working_capacity",
+    "feature_blocks": [
+      "xyz",
+      "esp",
+      "frac_pe"
+    ],
+    "frac_pe_frequencies": 2,
+    "augment": false,
+    "normalize_xyz": true,
+    "split": {
+      "train_ratio": 0.8,
+      "val_ratio": 0.1,
+      "test_ratio": 0.1
+    },
+    "point_roots": [
+      "external/EPS_fps/non_periodic",
+      "external/EPS_fps/non_periodic"
+    ],
+    "split_csv": "external/test_point/data/expanded_selectivity_compare/cif_tasks/pre-combustion-40-40__mmol_per_g_working_capacity/splits.csv",
+    "point_file_template": "{variant}_nonperiodic_fps_{num_points}.ply",
+    "point_pack_path": "external/test_point/outputs/full_selectivity_capacity_x3d_k2_e50/point_packs/esp5_10240.npy"
+  },
+  "model": {
+    "name": "x3d",
+    "sampler": "fps",
+    "fps_backend": "native",
+    "hidden_dim": 128,
+    "dropout": 0.1,
+    "num_layers": 4,
+    "num_heads": 8,
+    "token_count": 512,
+    "strides": [
+      1,
+      4,
+      4,
+      4,
+      4
+    ]
+  },
+  "training": {
+    "output_dir": "external/test_point/outputs/full_selectivity_capacity_x3d_k2_e50/esp/esp_highest_lowest_5pct/n10240/pre-combustion-40-40__mmol_per_g_working_capacity",
+    "device": "cuda:0",
+    "epochs": 50,
+    "batch_size": 6,
+    "num_workers": 2,
+    "pin_memory": true,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "grad_clip": 1.0,
+    "normalize_target": true
+  }
+}

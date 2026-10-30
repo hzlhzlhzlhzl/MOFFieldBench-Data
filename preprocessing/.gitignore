@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.so
+*.o
+build/
+outputs/
+*.cube
+*.cp3d
+*.ply
+*.npy
+*.npz
+*.pt
+*.pth
+*.log

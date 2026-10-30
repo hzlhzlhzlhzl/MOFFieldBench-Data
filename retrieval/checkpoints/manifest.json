@@ -1,0 +1,29 @@
+{
+  "checkpoint_archive": "moffieldbench-checkpoints.tar.gz",
+  "checkpoints": [
+    {
+      "module": "retrieval",
+      "archive_member": "retrieval/checkpoints/cif_ed_best.pt",
+      "install_path": "retrieval/checkpoints/cif_ed_best.pt",
+      "bytes": 12342906,
+      "sha256": "40826c23de7d95b462c7f6e01b5c2e7c16a7f3bea3b2eb75ceea645b017ce49e",
+      "checkpoint": "checkpoints/cif_ed_best.pt"
+    },
+    {
+      "module": "retrieval",
+      "archive_member": "retrieval/checkpoints/cif_esp_best.pt",
+      "install_path": "retrieval/checkpoints/cif_esp_best.pt",
+      "bytes": 12343034,
+      "sha256": "1d0a5cd2a3b7faea98e3b97192926e5e62a4e2d7fb217c9ef0379da5019fa22d",
+      "checkpoint": "checkpoints/cif_esp_best.pt"
+    },
+    {
+      "module": "retrieval",
+      "archive_member": "retrieval/checkpoints/ed_esp_best.pt",
+      "install_path": "retrieval/checkpoints/ed_esp_best.pt",
+      "bytes": 23208218,
+      "sha256": "77de366be5188bff0136d03352d6519507420cca832f505615291fc125178a4b",
+      "checkpoint": "checkpoints/ed_esp_best.pt"
+    }
+  ]
+}

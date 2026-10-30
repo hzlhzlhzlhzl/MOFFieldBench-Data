@@ -1,0 +1,122 @@
+{
+  "datasets": {
+    "Df": {
+      "samples": 40343,
+      "split_counts": {
+        "train": 32274,
+        "val": 4034,
+        "test": 4035
+      },
+      "origin": "merged_40k"
+    },
+    "Di": {
+      "samples": 40343,
+      "split_counts": {
+        "train": 32274,
+        "val": 4034,
+        "test": 4035
+      },
+      "origin": "merged_40k"
+    },
+    "Density": {
+      "samples": 40342,
+      "split_counts": {
+        "train": 32273,
+        "val": 4034,
+        "test": 4035
+      },
+      "origin": "merged_40k"
+    },
+    "landfill-gas-vpsa__selectivity": {
+      "samples": 24719,
+      "split_counts": {
+        "train": 19777,
+        "val": 2470,
+        "test": 2472
+      },
+      "origin": "strict_task_split"
+    },
+    "methane-storage-psa__mmol_per_g_uptake": {
+      "samples": 24847,
+      "split_counts": {
+        "train": 19877,
+        "val": 2484,
+        "test": 2486
+      },
+      "origin": "strict_task_split"
+    },
+    "methane-storage-psa__mmol_per_g_working_capacity": {
+      "samples": 24847,
+      "split_counts": {
+        "train": 19877,
+        "val": 2484,
+        "test": 2486
+      },
+      "origin": "strict_task_split"
+    },
+    "natural-gas-purification__mmol_per_g_uptake": {
+      "samples": 24847,
+      "split_counts": {
+        "train": 19877,
+        "val": 2484,
+        "test": 2486
+      },
+      "origin": "strict_task_split"
+    },
+    "natural-gas-purification__selectivity": {
+      "samples": 24724,
+      "split_counts": {
+        "train": 19777,
+        "val": 2470,
+        "test": 2477
+      },
+      "origin": "strict_task_split"
+    },
+    "post-combustion-vsa__mmol_per_g_working_capacity": {
+      "samples": 24847,
+      "split_counts": {
+        "train": 19877,
+        "val": 2484,
+        "test": 2486
+      },
+      "origin": "strict_task_split"
+    },
+    "post-combustion-vsa__selectivity": {
+      "samples": 24847,
+      "split_counts": {
+        "train": 19877,
+        "val": 2484,
+        "test": 2486
+      },
+      "origin": "strict_task_split"
+    },
+    "pre-combustion-40-40__mmol_per_g_working_capacity": {
+      "samples": 24847,
+      "split_counts": {
+        "train": 19877,
+        "val": 2484,
+        "test": 2486
+      },
+      "origin": "strict_task_split"
+    },
+    "pre-combustion-40-40__selectivity": {
+      "samples": 24847,
+      "split_counts": {
+        "train": 19877,
+        "val": 2484,
+        "test": 2486
+      },
+      "origin": "strict_task_split"
+    },
+    "bandgap": {
+      "samples": 15435,
+      "split_counts": {
+        "train": 12347,
+        "val": 1543,
+        "test": 1545
+      },
+      "origin": "qmof_prepared_esp7_ed003_4096"
+    }
+  },
+  "bandgap_manifest": "../manifests/qmof_bandgap_manifest.csv"
+}

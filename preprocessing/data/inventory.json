@@ -1,0 +1,15 @@
+{
+  "rows": 40343,
+  "unique_ids": 40343,
+  "source_counts": {
+    "arcmof": 24908,
+    "qmof": 15435
+  },
+  "source_file": "external/test_point/output_merged_2w_qmof/splits/Df.csv",
+  "source_sha256": "e5a09629bcbc45ce0f530a5e9a3511a0e143f0005c1638014ad2ba16f6c6492d",
+  "columns_retained_from_source": [
+    "id"
+  ],
+  "payload_status": "placeholder; no raw fields, PLYs, labels, splits or CIFs copied",
+  "path_base": "package root; glob columns describe discovery patterns"
+}

@@ -1,0 +1,65 @@
+{
+  "seed": 42,
+  "data": {
+    "point_root": "external/EPS_fps/non_periodic",
+    "label_csv": "external/test_point/output_merged_2w_qmof/data/combined_geometry_labels.csv",
+    "point_cloud_variant": "esp_highest_lowest_3pct",
+    "num_points": 4096,
+    "nonperiodic_dirname": "nonperiodic_fps",
+    "target_column": "Df",
+    "feature_blocks": [
+      "xyz",
+      "esp",
+      "frac_pe"
+    ],
+    "frac_pe_frequencies": 1,
+    "augment": false,
+    "normalize_xyz": true,
+    "split": {
+      "train_ratio": 0.8,
+      "val_ratio": 0.1,
+      "test_ratio": 0.1
+    },
+    "point_roots": [
+      "external/EPS_fps/non_periodic",
+      "external/EPS_fps/non_periodic",
+      "external/EPS_fps/non_periodic"
+    ],
+    "split_csv": "external/test_point/output_merged_2w_qmof/splits/Df.csv",
+    "point_file_template": "{variant}_nonperiodic_fps_{num_points}.ply",
+    "point_pack_path": [
+      "external/test_point/output_22000/point_packs/esp3_4096.npy",
+      "external/test_point/output_merged_2w_qmof/point_packs_qmof/esp3_4096.npy"
+    ]
+  },
+  "model": {
+    "name": "x3d",
+    "sampler": "fps",
+    "fps_backend": "native",
+    "hidden_dim": 128,
+    "dropout": 0.1,
+    "num_layers": 4,
+    "num_heads": 8,
+    "token_count": 512,
+    "strides": [
+      1,
+      4,
+      4,
+      4,
+      4
+    ]
+  },
+  "training": {
+    "output_dir": "external/test_point/output_merged_2w_qmof/esp/esp_highest_lowest_3pct/n4096/k1/Df",
+    "device": "cuda:0",
+    "epochs": 50,
+    "batch_size": 16,
+    "num_workers": 2,
+    "pin_memory": true,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "grad_clip": 1.0,
+    "normalize_target": true,
+    "target_transform": null
+  }
+}

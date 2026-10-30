@@ -1,0 +1,7 @@
+data/cifs/*
+!data/cifs/.gitkeep
+data/point_clouds/**
+!data/point_clouds/**/.gitkeep
+runs/
+__pycache__/
+*.pyc

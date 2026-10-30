@@ -1,0 +1,24 @@
+{
+  "target_column": "natural-gas-purification__mmol/g_uptake",
+  "point_cloud_variant": "esp_highest_lowest_3pct",
+  "num_points": 8192,
+  "model_name": "x3d",
+  "feature_blocks": [
+    "xyz",
+    "esp",
+    "frac_pe"
+  ],
+  "frac_pe_frequencies": 2,
+  "target_transform": "none",
+  "dataset_sizes": {
+    "train": 19877,
+    "val": 2484,
+    "test": 2486
+  },
+  "best_val_rmse": 0.7688359022140503,
+  "test_metrics": {
+    "mae": 0.5344512462615967,
+    "rmse": 0.761229932308197,
+    "r2": 0.6537140380550179
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "df": {"display_name": "PLD (Df)", "target_column": "Df", "dataset": "moffieldbench"},
+    "di": {"display_name": "LCD (Di)", "target_column": "Di", "dataset": "moffieldbench"},
+    "density": {"display_name": "Density", "target_column": "Density", "dataset": "moffieldbench"},
+    "bandgap": {"display_name": "Band gap", "target_column": "bandgap", "dataset": "qmof"},
+    "post_combustion_selectivity": {"display_name": "Post-combustion VSA selectivity", "target_column": "post-combustion-vsa__selectivity", "dataset": "moffieldbench"},
+    "natural_gas_selectivity": {"display_name": "Natural-gas purification selectivity", "target_column": "natural-gas-purification__selectivity", "dataset": "moffieldbench"},
+    "landfill_selectivity": {"display_name": "Landfill-gas VPSA selectivity", "target_column": "landfill-gas-vpsa__selectivity", "dataset": "moffieldbench"},
+    "pre_combustion_selectivity": {"display_name": "Pre-combustion selectivity", "target_column": "pre-combustion-40-40__selectivity", "dataset": "moffieldbench"},
+    "methane_uptake": {"display_name": "CH4 PSA uptake", "target_column": "methane-storage-psa__mmol/g_uptake", "dataset": "moffieldbench"},
+    "methane_working_capacity": {"display_name": "CH4 PSA working capacity", "target_column": "methane-storage-psa__mmol/g_working_capacity", "dataset": "moffieldbench"},
+    "post_combustion_capacity": {"display_name": "Post-combustion VSA working capacity", "target_column": "post-combustion-vsa__mmol/g_working_capacity", "dataset": "moffieldbench"},
+    "natural_gas_uptake": {"display_name": "Natural-gas purification uptake", "target_column": "natural-gas-purification__mmol/g_uptake", "dataset": "moffieldbench"},
+    "pre_combustion_capacity": {"display_name": "Pre-combustion working capacity", "target_column": "pre-combustion-40-40__mmol/g_working_capacity", "dataset": "moffieldbench"}
+  }
+}

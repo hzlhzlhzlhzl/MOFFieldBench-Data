@@ -1,0 +1,41 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+*.pem
+*.key
+# Generated Python/native artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+*.so
+*.o
+*.a
+# External scientific assets
+*.pt
+*.pth
+*.ckpt
+*.cube
+*.cp3d
+*.ply
+*.cif
+*.npy
+*.npz
+# Local output and configuration
+runs/
+outputs/
+*.log
+configs/local*.json
+**/data/dataset_manifest.json
+external/
+.DS_Store
+
+# Separately distributed original checkpoint archive and extracted metadata
+moffieldbench-checkpoints.tar.gz*
+/CHECKPOINTS_MANIFEST.json
+/CHECKPOINTS_README.txt

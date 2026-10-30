@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cp3d-mof"
+version = "1.1.0"
+description = "Read, write, compress and decompress CP3D scalar-field Cube data"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "numba>=0.58",
+]
+authors = [{name = "CP3D contributors"}]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+torch = ["torch>=2.0"]
+test = ["pytest>=7"]
+
+[project.scripts]
+cp3d = "cp3d.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+cp3d = ["py.typed"]

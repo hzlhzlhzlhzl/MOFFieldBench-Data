@@ -1,0 +1,18 @@
+[
+  {
+    "modality": "ED",
+    "r2": 0.4834548830986023,
+    "mae": 0.5932430624961853,
+    "rmse": 0.7721717357635498,
+    "n_test": 1545,
+    "checkpoint": "point_variant_matrix/runs/ed/ed_n10240/best_model.pt"
+  },
+  {
+    "modality": "ESP",
+    "r2": 0.26599758863449097,
+    "mae": 0.7106124758720398,
+    "rmse": 0.9204676747322083,
+    "n_test": 1545,
+    "checkpoint": "point_variant_matrix/runs/esp/esp_k2_n8192/best_model.pt"
+  }
+]

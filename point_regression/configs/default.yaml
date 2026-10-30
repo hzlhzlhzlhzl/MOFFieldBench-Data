@@ -1,0 +1,41 @@
+seed: 42
+
+data:
+  point_root: ${MOF_ESP_ROOT:-/path/to/EPS_fps/non_periodic}
+  label_csv: ${MOF_PROPERTY_LABELS:-data/labels/selected_mofs_wide.csv}
+  point_cloud_variant: esp_highest_lowest_3pct
+  num_points: 4096
+  nonperiodic_dirname: nonperiodic_fps
+  target_column: methane-storage-psa__mmol/g_working_capacity
+  feature_blocks: [xyz, esp, frac]
+  # Used when feature_blocks contains frac_pe: k=0,...,K-1 per fractional axis.
+  frac_pe_frequencies: 1
+  augment: false
+  normalize_xyz: true
+  split:
+    train_ratio: 0.8
+    val_ratio: 0.1
+    test_ratio: 0.1
+
+model:
+  name: pointnet
+  # X3D only: fps_backend=native uses the OpenPoints CUDA FPS implementation.
+  sampler: fps
+  fps_backend: linspace
+  hidden_dim: 128
+  dropout: 0.1
+  num_layers: 4
+  num_heads: 8
+  token_count: 512
+
+training:
+  output_dir: ./outputs/default
+  device: auto
+  epochs: 50
+  batch_size: 8
+  num_workers: 0
+  pin_memory: true
+  lr: 0.0003
+  weight_decay: 0.0001
+  grad_clip: 1.0
+  normalize_target: true

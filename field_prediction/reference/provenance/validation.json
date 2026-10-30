@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-29",
+  "scope": "Package consistency, source integrity, checkpoint loading, plotting archived metrics; no resampling or training requested.",
+  "checks": {
+    "checkpoint_files": "Exact original bytes; SHA-256 matched all four original evaluation shard records.",
+    "checkpoint_settings": "ED step 157000 / epoch 8; ESP step 294000 / epoch 15; cutoff 4 angstrom for both.",
+    "evaluation_settings": "Both targets, both shards: seed 20261003, 2000 probes/region/MOF, 100000 distance candidates, inference chunk 512.",
+    "split": "Original split file copied byte-for-byte; train=36310, validation=2017, test=2018; no duplicate or overlapping IDs.",
+    "numerical_source": "Eight original graph/sampling/metric/plot functions or classes have identical ASTs; see numerical_code_checks.json.",
+    "upstream_source": "All 22 bundled model/CP3D files byte-identical to workspace source; see bundled_sources.json.",
+    "plot_summary": "All nine plotted means exactly equal archived expected_summary.csv values.",
+    "plots": "Both generated PNG arrays pixel-identical to original reference figures, shape 846 x 1457 x 4.",
+    "portable_imports": "ChargE3Net and CP3D resolve inside this package.",
+    "relocation": "Copied full package to a temporary new root; python -I run.py verify passed from cwd=/; placeholders resolve to relocated data/raw.",
+    "missing_data": "evaluate stops with explicit missing-data message before importing/loading a model.",
+    "cli_help": "Root, evaluate, train, predict, prepare-data and compare --help all exited 0.",
+    "syntax": "All bundled Python sources compiled successfully.",
+    "model_load": "Both ED and ESP loaded with strict=True on CPU; 1,909,389 parameters per model; step, epoch and cutoff verified."
+  },
+  "not_run": [
+    "Full evaluation of 2018 MOFs per target",
+    "New sampling/inference from original field data",
+    "Training or resuming training",
+    "Fresh dependency installation"
+  ],
+  "data": "Only .gitkeep placeholders in data/raw; actual source fields not copied or linked.",
+  "environment_note": "Validation uses .venv-cp3d (Python 3.10). The base mofdiff interpreter alone lacks the e3nn installation from that venv.",
+  "status": "passed"
+}

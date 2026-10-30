@@ -1,0 +1,17 @@
+{
+  "manifest_csv": "data/manifest.csv",
+  "input_roots": ["data/arcmof/cp2k_cube", "data/qmof/cp2k_cube"],
+  "point_root": "data/point_clouds",
+  "ed_output_root": "data/ED_fps",
+  "esp_output_root": "data/EPS_fps",
+  "downsample": "auto",
+  "density_thresholds": [0.02, 0.03, 0.05, 0.08, 0.1],
+  "esp_tail_percentages": [3, 5, 7],
+  "surface_esp": true,
+  "sizes": [4096, 6144, 8192, 10240],
+  "methods": ["nonperiodic"],
+  "periodic_mode": "validated8",
+  "size_policy": "clip",
+  "seed": 20260726,
+  "device": "auto"
+}

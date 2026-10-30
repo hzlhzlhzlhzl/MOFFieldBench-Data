@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "manifest": "data/manifests/materials.json",
+  "split": "data/splits/split_40345.json",
+  "test_mofs": 2018,
+  "probes": 2000,
+  "distance_candidates": 100000,
+  "inference_chunk": 512,
+  "seed": 20261003,
+  "num_shards": 2,
+  "models": {
+    "ed": {
+      "checkpoint": "checkpoints/ed/step_157000.pt",
+      "sha256": "bc34cb98f635034ad67fe0c06a68f97dc881e0ee0605633dbcdf2d200a4f8346",
+      "step": 157000,
+      "epoch": 8,
+      "cutoff": 4.0,
+      "archive_member": "field_prediction/checkpoints/ed/step_157000.pt"
+    },
+    "esp": {
+      "checkpoint": "checkpoints/esp/step_294000.pt",
+      "sha256": "efbb831b17c3841afa0c587d8d5004e8d9d9b441d57e60caca5cbac6ef89114a",
+      "step": 294000,
+      "epoch": 15,
+      "cutoff": 4.0,
+      "archive_member": "field_prediction/checkpoints/esp/step_294000.pt"
+    }
+  },
+  "checkpoint_archive": "moffieldbench-checkpoints.tar.gz"
+}

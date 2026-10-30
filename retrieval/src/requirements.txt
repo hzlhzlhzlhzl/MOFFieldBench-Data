@@ -1,0 +1,9 @@
+numpy
+PyYAML
+pymatgen
+torch
+torch-scatter
+tqdm
+easydict
+scikit-learn
+matplotlib

@@ -1,0 +1,50 @@
+checkpoint_archive: moffieldbench-checkpoints.tar.gz
+archive_member_root: point_regression/checkpoints/fig1
+# Figure 1b is a metric aggregation. This manifest records all locally copied
+# point-model weights used for the Fig. 1 task set.
+figure_files:
+  - ../../result/paper fig1/fig1a_from_fig_data.png
+  - ../../result/paper fig1/fig1b_from_fig_data.png
+bandgap:
+  ed:
+    local_checkpoint: fig1/bandgap_ed_best_model.pt
+    archive_member: point_regression/checkpoints/fig1/bandgap_ed_best_model.pt
+    source_checkpoint: external/point_banggap/point_variant_matrix/runs/ed/ed_n10240/best_model.pt
+    config: configs/bandgap_ed.yaml
+    metrics: {r2: 0.4834548831, mae: 0.5932430625, rmse: 0.7721717358}
+  esp:
+    local_checkpoint: fig1/bandgap_esp_best_model.pt
+    archive_member: point_regression/checkpoints/fig1/bandgap_esp_best_model.pt
+    source_checkpoint: external/point_banggap/point_variant_matrix/runs/esp/esp_k2_n8192/best_model.pt
+    config: configs/bandgap_esp.yaml
+    metrics: {r2: 0.2659975886, mae: 0.7106124759, rmse: 0.9204676747}
+properties:
+  local_root: fig1/point
+  metric_source: ../../result/paper fig1/regression plots/regression_plot_summary.csv
+  # Eight properties came from the local test_point result trees.
+  local_test_point:
+    - Df
+    - Di
+    - Density
+    - post_combustion_vsa_selectivity
+    - natural_gas_purification_selectivity_p995
+    - landfill_gas_vpsa_selectivity_p995
+    - pre_combustion_40_40_selectivity
+    - pre_combustion_40_40_mmol_g_working_capacity
+  # These four formerly appeared only as reference predictions. The actual
+  # ED/ESP seed-42 weights are now copied from this source tree.
+  portable_source_root: external/best_seed_repeats
+  portable_seed: 42
+  portable_tasks:
+    methane_storage_psa_mmol_g_uptake:
+      ed: density_0.02/n8192/k1
+      esp: esp_highest_lowest_3pct/n8192/k1
+    methane_storage_psa_mmol_g_working_capacity:
+      ed: density_0.02/n8192/k3
+      esp: esp_highest_lowest_5pct/n10240/k1
+    post_combustion_vsa_mmol_g_working_capacity:
+      ed: density_0.05/n4096/k1
+      esp: esp_highest_lowest_5pct/n8192/k1
+    natural_gas_purification_mmol_g_uptake:
+      ed: density_0.02/n4096/k2
+      esp: esp_highest_lowest_3pct/n8192/k2

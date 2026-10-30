@@ -1,0 +1,24 @@
+{
+  "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "torch_cuda": "11.7",
+  "versions": {
+    "torch": "1.13.1",
+    "numpy": "1.26.4",
+    "scipy": "1.15.2",
+    "ase": "3.28.0",
+    "e3nn": "0.5.1",
+    "matplotlib": "3.10.9",
+    "pandas": "2.3.3",
+    "numba": "0.65.1",
+    "llvmlite": "0.47.0",
+    "lz4": "4.4.5",
+    "tqdm": "4.68.2",
+    "opt-einsum": "3.4.0",
+    "opt-einsum-fx": "0.1.4",
+    "sympy": "1.14.0",
+    "Pillow": "12.2.0"
+  },
+  "cp3d": "1.1.0 (bundled source)",
+  "note": "Observed working environment; not a claim that a fresh environment was installed."
+}

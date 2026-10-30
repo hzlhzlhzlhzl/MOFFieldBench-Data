@@ -1,0 +1,17 @@
+task,fusion,original_method,selected_method,residual_mae,selected_mae,mae_reduction_pct_vs_residual,residual_r2,selected_r2
+Band gap,CIF + ED,residual_gated,attention_gated,0.2810189762069847,0.2761619938909706,1.7283467406971993,0.8662306102412126,0.8743986812681522
+Density,CIF + ED,residual_gated,attention_gated,0.052269532,0.04742902,9.260675989982076,0.98385185,0.9866373
+Natural-gas purification uptake,CIF + ED,residual_gated,symmetric_gated,0.43108739,0.42745582,0.8424208372228258,0.76834318,0.77602951
+PLD (Df),CIF + ED,residual_gated,symmetric_gated,0.51734614,0.51690524,0.08522340574532292,0.95302632,0.9534703
+Band gap,CIF + ED + ESP,residual_gated,symmetric_gated,0.2904707970650728,0.2808968519223824,3.2960095264053626,0.8611878563593365,0.8688295166182332
+CH₄ PSA uptake,CIF + ED + ESP,residual_gated,attention_gated,0.56795894,0.55619287,2.071640953481615,0.97591895,0.97620305
+Density,CIF + ED + ESP,residual_gated,attention_gated,0.052558666,0.050909719,3.1373456091903056,0.98480017,0.98559702
+LCD (Di),CIF + ED + ESP,residual_gated,symmetric_gated,0.49523964,0.49518016,0.012010347152340358,0.96576926,0.96524157
+Natural-gas purification selectivity,CIF + ED + ESP,residual_gated,symmetric_gated,1.2964006,1.2851067,0.8711736171673985,0.51003356,0.50665768
+Post-combustion VSA selectivity,CIF + ED + ESP,residual_gated,attention_gated,12.318877,12.069993,2.02034649749324,0.74070955,0.75969473
+Band gap,CIF + ESP,residual_gated,symmetric_gated,0.2984648355296406,0.2876353389530783,3.6283994921360887,0.8612021259856686,0.8697078409236922
+CH₄ PSA uptake,CIF + ESP,residual_gated,symmetric_gated,0.57738457,0.57588643,0.25947004437614896,0.9750466,0.97494352
+CH₄ PSA working capacity,CIF + ESP,residual_gated,symmetric_gated,0.50492216,0.50294591,0.39139696304872273,0.98029937,0.98091557
+Density,CIF + ESP,residual_gated,attention_gated,0.054606016,0.053818086,1.4429362508336063,0.98272036,0.98370797
+Natural-gas purification selectivity,CIF + ESP,residual_gated,attention_gated,1.3465516,1.2969563,3.6831340143222144,0.48494092,0.51709873
+PLD (Df),CIF + ESP,residual_gated,symmetric_gated,0.54919389,0.54905479,0.025328031235006567,0.95037476,0.94892762

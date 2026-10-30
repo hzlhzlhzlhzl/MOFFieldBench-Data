@@ -1,0 +1,1955 @@
+[
+  {
+    "source": "external/mof_cp2k/fourier_downsample_cp2k_cube.py",
+    "destination": "code/mof_pipeline/fourier.py",
+    "source_sha256": "0b4ead67077904512c577bf18f79a48b4158dcc4d1bac764d66b7d747327a70b",
+    "packaged_sha256": "fe943ac2836a47867d6e9cc9aeae67f70a6fbfa6c1e82732ba04a99662b35674",
+    "modified": true
+  },
+  {
+    "source": "external/mof_cp2k/build_cp3d_point_clouds_gt13m.py",
+    "destination": "code/mof_pipeline/pointclouds.py",
+    "source_sha256": "b09ae1f4d7f4b8fe49ef1bfd0f227dd048d0b5a19311cdf15927bc2186412f2f",
+    "packaged_sha256": "338bda1a9937d54b4e9878ddc4b7fa39cf500b6c4165894fa17fe758430e5ca5",
+    "modified": true
+  },
+  {
+    "source": "external/mof_cp2k/fps/mof_periodic_nonperiodic_fps.py",
+    "destination": "code/mof_pipeline/fps.py",
+    "source_sha256": "07659ec275a18ef387360c2468d5c013da691b471c718ffd925dc1cf4f084d50",
+    "packaged_sha256": "df43fb674a6df506eb52b113241ce53085be8265987b57a6ed674dc7aa42ded8",
+    "modified": true
+  },
+  {
+    "source": "external/mof_cp2k/cp3d/src/cp3d/_v2.py",
+    "destination": "code/cp3d/_v2.py",
+    "source_sha256": "0412786309b1182d307e5b4c66a70a8ce42cd88f917d3088d7b22603fe2dc4b3",
+    "packaged_sha256": "0412786309b1182d307e5b4c66a70a8ce42cd88f917d3088d7b22603fe2dc4b3",
+    "modified": false
+  },
+  {
+    "source": "external/mof_cp2k/cp3d/src/cp3d/_v1.py",
+    "destination": "code/cp3d/_v1.py",
+    "source_sha256": "3567a6038dc6679af9042c4b6178e48f17175f72f389bf5ca4e6c4ef4eb69d38",
+    "packaged_sha256": "3567a6038dc6679af9042c4b6178e48f17175f72f389bf5ca4e6c4ef4eb69d38",
+    "modified": false
+  },
+  {
+    "source": "external/mof_cp2k/cp3d/src/cp3d/_cube.py",
+    "destination": "code/cp3d/_cube.py",
+    "source_sha256": "5882688c00c33b7d58236520e42d724be8c14d38ef260a386f059b01fa931d6d",
+    "packaged_sha256": "5882688c00c33b7d58236520e42d724be8c14d38ef260a386f059b01fa931d6d",
+    "modified": false
+  },
+  {
+    "source": "external/mof_cp2k/cp3d/src/cp3d/api.py",
+    "destination": "code/cp3d/api.py",
+    "source_sha256": "cd861ec40a51aa72489a61c5df631aed4a15e881cbabc8fafdcf95e37eb67ae2",
+    "packaged_sha256": "cd861ec40a51aa72489a61c5df631aed4a15e881cbabc8fafdcf95e37eb67ae2",
+    "modified": false
+  },
+  {
+    "source": "external/mof_cp2k/cp3d/src/cp3d/_dpcm.py",
+    "destination": "code/cp3d/_dpcm.py",
+    "source_sha256": "ae66f0250619e45c37787d083512d5e88e7c812dbf7f835a099c662f9b3e15b2",
+    "packaged_sha256": "ae66f0250619e45c37787d083512d5e88e7c812dbf7f835a099c662f9b3e15b2",
+    "modified": false
+  },
+  {
+    "source": "external/mof_cp2k/cp3d/src/cp3d/cli.py",
+    "destination": "code/cp3d/cli.py",
+    "source_sha256": "b9bbd153046a87979ca1ae12fc85bd1c9a4012dce390b9bdb914cddaef29b8d0",
+    "packaged_sha256": "b9bbd153046a87979ca1ae12fc85bd1c9a4012dce390b9bdb914cddaef29b8d0",
+    "modified": false
+  },
+  {
+    "source": "external/mof_cp2k/cp3d/src/cp3d/__init__.py",
+    "destination": "code/cp3d/__init__.py",
+    "source_sha256": "68f657b91d49c16200b390a7158cb2b31d5c2184567bb8d63256fadf06ab584e",
+    "packaged_sha256": "68f657b91d49c16200b390a7158cb2b31d5c2184567bb8d63256fadf06ab584e",
+    "modified": false
+  },
+  {
+    "source": "external/mof_cp2k/cp3d/README.md",
+    "destination": "docs/CP3D_UPSTREAM.md",
+    "source_sha256": "c6d1ddd339c39fb452b81d6da2cd7b13b8e22af431990fc14b02ee7d68fd2489",
+    "packaged_sha256": "d5017aff87dd80ac56d44f825157dc95596cc21e444e587f17c5aae7ac576bde",
+    "modified": true
+  },
+  {
+    "source": "external/test_point/codepakge/src/mofreg/train_utils.py",
+    "destination": "model/src/mofreg/train_utils.py",
+    "source_sha256": "f846a29b74b1e92ecee2743cd5f3934c87bf4e94785732080aa4923cde706fb3",
+    "packaged_sha256": "f846a29b74b1e92ecee2743cd5f3934c87bf4e94785732080aa4923cde706fb3",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/src/mofreg/config.py",
+    "destination": "model/src/mofreg/config.py",
+    "source_sha256": "d6f2ebda1a80de554b519908884174c7b5f153d278b0edaea9cc937e0d4e8450",
+    "packaged_sha256": "d6f2ebda1a80de554b519908884174c7b5f153d278b0edaea9cc937e0d4e8450",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/src/mofreg/repo_models.py",
+    "destination": "model/src/mofreg/repo_models.py",
+    "source_sha256": "729ba2876cdca65a0b29595009d4096eaadc4d16a9edb39bed61934db7f951a1",
+    "packaged_sha256": "1f3b6e8dab3fc4fe1b351dc26d26f2f9c98e1c0f0524cd2232ae58278b71ebc1",
+    "modified": true
+  },
+  {
+    "source": "external/test_point/codepakge/src/mofreg/__init__.py",
+    "destination": "model/src/mofreg/__init__.py",
+    "source_sha256": "a3071981812ca0cbec09dc23bc51b3be5b907a17e3457af612787cb0c5e3cfc3",
+    "packaged_sha256": "a3071981812ca0cbec09dc23bc51b3be5b907a17e3457af612787cb0c5e3cfc3",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/src/mofreg/models.py",
+    "destination": "model/src/mofreg/models.py",
+    "source_sha256": "0e6165890bdf3a2a319b69dba55ca8ea67a6a9fda66e01df77998b48a1e50259",
+    "packaged_sha256": "32f2496de98ea1ef306444fbc290612cf230968bae3b44dab58ab6d829d4a80c",
+    "modified": true
+  },
+  {
+    "source": "external/test_point/codepakge/src/mofreg/data.py",
+    "destination": "model/src/mofreg/data.py",
+    "source_sha256": "27d54bf7987ffefb4afd0150a84426d33665ed2f4356a93a8afb3b821fdc722c",
+    "packaged_sha256": "ef331b28a7b0848d9a78ddbc759dcbb3785d4f72f7aa83dcfc1226ec915f2d54",
+    "modified": true
+  },
+  {
+    "source": "external/test_point/codepakge/train.py",
+    "destination": "model/train.py",
+    "source_sha256": "417df257344bacf03748d9c253669a4ba96bc761194f4592cc2559e3f66f3810",
+    "packaged_sha256": "417df257344bacf03748d9c253669a4ba96bc761194f4592cc2559e3f66f3810",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/__init__.py",
+    "destination": "model/vendor/openpoints/__init__.py",
+    "source_sha256": "5601a81a0d525c66ce4c36df719d887882761d45abfe72f31b60818f78ce13b4",
+    "packaged_sha256": "5601a81a0d525c66ce4c36df719d887882761d45abfe72f31b60818f78ce13b4",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/README.md",
+    "destination": "model/vendor/openpoints/README.md",
+    "source_sha256": "a32188f1bada5b6eb7cda2ebf4750b416527ea61ad22bbf36e612f37f9152f12",
+    "packaged_sha256": "a32188f1bada5b6eb7cda2ebf4750b416527ea61ad22bbf36e612f37f9152f12",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/dataset_base.py",
+    "destination": "model/vendor/openpoints/dataset/dataset_base.py",
+    "source_sha256": "c96c487399ecad50f6f4c6465326c822346dc1edc26ef13b9ad11312230f3b5f",
+    "packaged_sha256": "c96c487399ecad50f6f4c6465326c822346dc1edc26ef13b9ad11312230f3b5f",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/build.py",
+    "destination": "model/vendor/openpoints/dataset/build.py",
+    "source_sha256": "210e6e676a6012247ba19a95257666bbf723fba7ff6cd3976f9d8395447c0aa6",
+    "packaged_sha256": "210e6e676a6012247ba19a95257666bbf723fba7ff6cd3976f9d8395447c0aa6",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/datalist.py",
+    "destination": "model/vendor/openpoints/dataset/datalist.py",
+    "source_sha256": "d2ba3f13ad097b1f21c4a485646307fefb3d01139ac1874a55b4c54fede8b31d",
+    "packaged_sha256": "d2ba3f13ad097b1f21c4a485646307fefb3d01139ac1874a55b4c54fede8b31d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/vis3d.py",
+    "destination": "model/vendor/openpoints/dataset/vis3d.py",
+    "source_sha256": "5417a96ec15ea8dcfb798fc83a928e810d5d8546ff24c37ef20b63c2409a627f",
+    "packaged_sha256": "5417a96ec15ea8dcfb798fc83a928e810d5d8546ff24c37ef20b63c2409a627f",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/__init__.py",
+    "source_sha256": "cd647b889fbc07edc072939ddfd69266315175aa808c400d5bb57a6e14163212",
+    "packaged_sha256": "cd647b889fbc07edc072939ddfd69266315175aa808c400d5bb57a6e14163212",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/grid_sample.py",
+    "destination": "model/vendor/openpoints/dataset/grid_sample.py",
+    "source_sha256": "705f21e0fc910a1716733c78b175d42627f91bf9f47e7e3257c5186a20540678",
+    "packaged_sha256": "705f21e0fc910a1716733c78b175d42627f91bf9f47e7e3257c5186a20540678",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/data_util.py",
+    "destination": "model/vendor/openpoints/dataset/data_util.py",
+    "source_sha256": "1e65777abee3e1ab612f83df959131c533871818642a772d256c3d2162831710",
+    "packaged_sha256": "1e65777abee3e1ab612f83df959131c533871818642a772d256c3d2162831710",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/vis2d.py",
+    "destination": "model/vendor/openpoints/dataset/vis2d.py",
+    "source_sha256": "92348bec37bb061865d96eb0929e6a5e9707c83c97e0ac7041254c0355bc68bd",
+    "packaged_sha256": "92348bec37bb061865d96eb0929e6a5e9707c83c97e0ac7041254c0355bc68bd",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/loss/distill_loss.py",
+    "destination": "model/vendor/openpoints/loss/distill_loss.py",
+    "source_sha256": "5c057eeef5c94640546b41f3d889fe044e2712c503c2a7a8ed7ad0f16c79855f",
+    "packaged_sha256": "5c057eeef5c94640546b41f3d889fe044e2712c503c2a7a8ed7ad0f16c79855f",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/loss/cross_entropy.py",
+    "destination": "model/vendor/openpoints/loss/cross_entropy.py",
+    "source_sha256": "5720ea8d395a7cad132aba1f3315e72f14fd0934be06f63808b3b4dd4d122fe6",
+    "packaged_sha256": "5720ea8d395a7cad132aba1f3315e72f14fd0934be06f63808b3b4dd4d122fe6",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/loss/build.py",
+    "destination": "model/vendor/openpoints/loss/build.py",
+    "source_sha256": "9a89fc371dc6d7231f38aebf0db48b49dfb06766679049d614f1b5e0db0b5f27",
+    "packaged_sha256": "9a89fc371dc6d7231f38aebf0db48b49dfb06766679049d614f1b5e0db0b5f27",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/loss/__init__.py",
+    "destination": "model/vendor/openpoints/loss/__init__.py",
+    "source_sha256": "366afbb478136b138fcb45a0ec0eb68b55299a1f2b20d1d1168c22d3381a3999",
+    "packaged_sha256": "366afbb478136b138fcb45a0ec0eb68b55299a1f2b20d1d1168c22d3381a3999",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/__init__.py",
+    "destination": "model/vendor/openpoints/cpp/__init__.py",
+    "source_sha256": "e7e02a32fefc6b803fda43100c49e1a5b274b188666573407f00dfd264efe41d",
+    "packaged_sha256": "e7e02a32fefc6b803fda43100c49e1a5b274b188666573407f00dfd264efe41d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/adahessian.py",
+    "destination": "model/vendor/openpoints/optim/adahessian.py",
+    "source_sha256": "bc9b50f1b65318bae4318b863ce25d80efb957c86356f336225f874aa839f40a",
+    "packaged_sha256": "bc9b50f1b65318bae4318b863ce25d80efb957c86356f336225f874aa839f40a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/adabelief.py",
+    "destination": "model/vendor/openpoints/optim/adabelief.py",
+    "source_sha256": "9fc9d56c55f44eb0a0908f7cb3bb15f43d65febc0fa2a81575f516d4ac4630f6",
+    "packaged_sha256": "9fc9d56c55f44eb0a0908f7cb3bb15f43d65febc0fa2a81575f516d4ac4630f6",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/optim_factory.py",
+    "destination": "model/vendor/openpoints/optim/optim_factory.py",
+    "source_sha256": "a29cba23541749f8879954365e293e131276c0e49f1bb748268fd2fa98bd79f2",
+    "packaged_sha256": "a29cba23541749f8879954365e293e131276c0e49f1bb748268fd2fa98bd79f2",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/adafactor.py",
+    "destination": "model/vendor/openpoints/optim/adafactor.py",
+    "source_sha256": "50e61d6e2b0218e5c9245e2c92505ae1711bde6ebc23257a224cdc128a4669c9",
+    "packaged_sha256": "50e61d6e2b0218e5c9245e2c92505ae1711bde6ebc23257a224cdc128a4669c9",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/sgdp.py",
+    "destination": "model/vendor/openpoints/optim/sgdp.py",
+    "source_sha256": "edfe193151db8c24c34e03ce65f134e92e2599d5019c80420ebfd8cf2d511616",
+    "packaged_sha256": "edfe193151db8c24c34e03ce65f134e92e2599d5019c80420ebfd8cf2d511616",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/adamw.py",
+    "destination": "model/vendor/openpoints/optim/adamw.py",
+    "source_sha256": "38a48119f696b3a0c90b569724769d029e050030270c3c1bf9944ab8f6a8ef39",
+    "packaged_sha256": "38a48119f696b3a0c90b569724769d029e050030270c3c1bf9944ab8f6a8ef39",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/nadam.py",
+    "destination": "model/vendor/openpoints/optim/nadam.py",
+    "source_sha256": "0121084adef6ad79e97ea56429f828b495c1629b321bd3ebd7b23c5453ba11a7",
+    "packaged_sha256": "0121084adef6ad79e97ea56429f828b495c1629b321bd3ebd7b23c5453ba11a7",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/nvnovograd.py",
+    "destination": "model/vendor/openpoints/optim/nvnovograd.py",
+    "source_sha256": "36444bab4d3baaa8910eb86a8992b528ffe47c270570349809645ca18bdd74e4",
+    "packaged_sha256": "36444bab4d3baaa8910eb86a8992b528ffe47c270570349809645ca18bdd74e4",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/lars.py",
+    "destination": "model/vendor/openpoints/optim/lars.py",
+    "source_sha256": "f18b6efaae05bd74164c470fed1fbcc5229d6fbd9cdacd57853bcccc8b2104c1",
+    "packaged_sha256": "f18b6efaae05bd74164c470fed1fbcc5229d6fbd9cdacd57853bcccc8b2104c1",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/radam.py",
+    "destination": "model/vendor/openpoints/optim/radam.py",
+    "source_sha256": "7427852462a8e560bcc3b01df2dba574ce90173e359d85c92182391e41fabb19",
+    "packaged_sha256": "7427852462a8e560bcc3b01df2dba574ce90173e359d85c92182391e41fabb19",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/__init__.py",
+    "destination": "model/vendor/openpoints/optim/__init__.py",
+    "source_sha256": "8ff7b7eb2de4644dfb5a7bccc662ff16728d7cefa320a5e910939b7458ce5a6a",
+    "packaged_sha256": "8ff7b7eb2de4644dfb5a7bccc662ff16728d7cefa320a5e910939b7458ce5a6a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/adamp.py",
+    "destination": "model/vendor/openpoints/optim/adamp.py",
+    "source_sha256": "3d22587e86d0bf1cbd2b4b5d53afa68da885e01aa121763db07576be9a2cc792",
+    "packaged_sha256": "3d22587e86d0bf1cbd2b4b5d53afa68da885e01aa121763db07576be9a2cc792",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/lamb.py",
+    "destination": "model/vendor/openpoints/optim/lamb.py",
+    "source_sha256": "208f734e97315b336a824e0af9bb395462a540f69b5289520261e47128eca925",
+    "packaged_sha256": "208f734e97315b336a824e0af9bb395462a540f69b5289520261e47128eca925",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/madgrad.py",
+    "destination": "model/vendor/openpoints/optim/madgrad.py",
+    "source_sha256": "5772c9b8f8c6c223bb45d1c064517442a6bc253f1af432492d210ed8f086ec7a",
+    "packaged_sha256": "5772c9b8f8c6c223bb45d1c064517442a6bc253f1af432492d210ed8f086ec7a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/lookahead.py",
+    "destination": "model/vendor/openpoints/optim/lookahead.py",
+    "source_sha256": "9dde3615755e757eaa967c815c631cc648f522c5143adc1b5456b8750632f373",
+    "packaged_sha256": "9dde3615755e757eaa967c815c631cc648f522c5143adc1b5456b8750632f373",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/optim/rmsprop_tf.py",
+    "destination": "model/vendor/openpoints/optim/rmsprop_tf.py",
+    "source_sha256": "497e3b61168b3cd07e6292692d46d7ab1db5645a033deaafa495f69229f8c027",
+    "packaged_sha256": "497e3b61168b3cd07e6292692d46d7ab1db5645a033deaafa495f69229f8c027",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/build.py",
+    "destination": "model/vendor/openpoints/models/build.py",
+    "source_sha256": "4ed3027d261942614f026850ab341732cc6661587a81c774ae6713b4fac40f9d",
+    "packaged_sha256": "4ed3027d261942614f026850ab341732cc6661587a81c774ae6713b4fac40f9d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/__init__.py",
+    "destination": "model/vendor/openpoints/models/__init__.py",
+    "source_sha256": "72a7338af3aa9e84682462d4e4f2c1517b9b65164f9cf8bd334f7b37717c9cab",
+    "packaged_sha256": "72a7338af3aa9e84682462d4e4f2c1517b9b65164f9cf8bd334f7b37717c9cab",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/registry.py",
+    "destination": "model/vendor/openpoints/models/registry.py",
+    "source_sha256": "61148f6688ea21f548438cf9c8b2be2e735967615727ffdc3f76cd15555b55c9",
+    "packaged_sha256": "61148f6688ea21f548438cf9c8b2be2e735967615727ffdc3f76cd15555b55c9",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/transforms/transforms_factory.py",
+    "destination": "model/vendor/openpoints/transforms/transforms_factory.py",
+    "source_sha256": "b02f41a18bfd64f35beae51bb954932fedc4e1a628c51b95b7a30dcdf2eb70dd",
+    "packaged_sha256": "b02f41a18bfd64f35beae51bb954932fedc4e1a628c51b95b7a30dcdf2eb70dd",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/transforms/point_transformer_gpu.py",
+    "destination": "model/vendor/openpoints/transforms/point_transformer_gpu.py",
+    "source_sha256": "46dd9943205b9e9ca83f9dfd245f0be1d419b2b431a4bbdaf06df8dc0b050510",
+    "packaged_sha256": "46dd9943205b9e9ca83f9dfd245f0be1d419b2b431a4bbdaf06df8dc0b050510",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/transforms/__init__.py",
+    "destination": "model/vendor/openpoints/transforms/__init__.py",
+    "source_sha256": "dfcd3f320b5848f9290e16720429755a35c141dfabddca08554bceb6bf7ee4d4",
+    "packaged_sha256": "dfcd3f320b5848f9290e16720429755a35c141dfabddca08554bceb6bf7ee4d4",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/transforms/point_transform_cpu.py",
+    "destination": "model/vendor/openpoints/transforms/point_transform_cpu.py",
+    "source_sha256": "3a12529f37d0d0aa9ff3a458c35dd1798e7f28ae98c3f6e30d162e3eea308673",
+    "packaged_sha256": "3a12529f37d0d0aa9ff3a458c35dd1798e7f28ae98c3f6e30d162e3eea308673",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/utils/dist_utils.py",
+    "destination": "model/vendor/openpoints/utils/dist_utils.py",
+    "source_sha256": "88370155ca1c207c906d650b98e87f2d9d2e69e2fb797107ac4fe3b5b026e66e",
+    "packaged_sha256": "88370155ca1c207c906d650b98e87f2d9d2e69e2fb797107ac4fe3b5b026e66e",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/utils/random.py",
+    "destination": "model/vendor/openpoints/utils/random.py",
+    "source_sha256": "2bfcd6e16f9caf07a34a9d95e95571b83360a8ee86bcd04b1ad5f02797ff97af",
+    "packaged_sha256": "2bfcd6e16f9caf07a34a9d95e95571b83360a8ee86bcd04b1ad5f02797ff97af",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/utils/str2bool.py",
+    "destination": "model/vendor/openpoints/utils/str2bool.py",
+    "source_sha256": "8147e698031381c364a886d758a5eb481ad3ac3e44d6a87290dd5a98c5b22e92",
+    "packaged_sha256": "8147e698031381c364a886d758a5eb481ad3ac3e44d6a87290dd5a98c5b22e92",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/utils/config.py",
+    "destination": "model/vendor/openpoints/utils/config.py",
+    "source_sha256": "432f48285e3334e4addb9df6d9870e042d9be15201782bc6adf7af93d87fd37b",
+    "packaged_sha256": "432f48285e3334e4addb9df6d9870e042d9be15201782bc6adf7af93d87fd37b",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/utils/__init__.py",
+    "destination": "model/vendor/openpoints/utils/__init__.py",
+    "source_sha256": "22074e158dea9267e0ee9648a4977c666111ad7e643f1beaa7d149405552346e",
+    "packaged_sha256": "22074e158dea9267e0ee9648a4977c666111ad7e643f1beaa7d149405552346e",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/utils/wandb.py",
+    "destination": "model/vendor/openpoints/utils/wandb.py",
+    "source_sha256": "853afed9b497cf6c5be5219d5fb9cc1a56b642670e70f801d5a02977f16323fa",
+    "packaged_sha256": "853afed9b497cf6c5be5219d5fb9cc1a56b642670e70f801d5a02977f16323fa",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/utils/metrics.py",
+    "destination": "model/vendor/openpoints/utils/metrics.py",
+    "source_sha256": "4c5911bb1f729aaa4d0592a4f5e206a0e2bc4b355f66e33b020f030b56556e68",
+    "packaged_sha256": "4c5911bb1f729aaa4d0592a4f5e206a0e2bc4b355f66e33b020f030b56556e68",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/utils/registry.py",
+    "destination": "model/vendor/openpoints/utils/registry.py",
+    "source_sha256": "9fdd782a67f79b06d46aad087792d6a136f73f19550e4720730aa25bd93633b8",
+    "packaged_sha256": "9fdd782a67f79b06d46aad087792d6a136f73f19550e4720730aa25bd93633b8",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/utils/ckpt_util.py",
+    "destination": "model/vendor/openpoints/utils/ckpt_util.py",
+    "source_sha256": "4758eb31d13285a966d08a7c5bbc6dd8c461a1ff8f07cc32c74fd0d7bba9d4b8",
+    "packaged_sha256": "4758eb31d13285a966d08a7c5bbc6dd8c461a1ff8f07cc32c74fd0d7bba9d4b8",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/utils/logger.py",
+    "destination": "model/vendor/openpoints/utils/logger.py",
+    "source_sha256": "2dbb944d6a1160098166bc551f0dd01e7a01952ecb4b7b385b57f4040029543d",
+    "packaged_sha256": "2dbb944d6a1160098166bc551f0dd01e7a01952ecb4b7b385b57f4040029543d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/scheduler/step_lr.py",
+    "destination": "model/vendor/openpoints/scheduler/step_lr.py",
+    "source_sha256": "ebbb47363406450cf4caa019e09d87e19fe1113bb7852c001f83745f57953e40",
+    "packaged_sha256": "ebbb47363406450cf4caa019e09d87e19fe1113bb7852c001f83745f57953e40",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/scheduler/multistep_lr.py",
+    "destination": "model/vendor/openpoints/scheduler/multistep_lr.py",
+    "source_sha256": "a2aaa39db66d1f4ed869697ddad087b038436243f9cbaa24aa3af8469d765fdc",
+    "packaged_sha256": "a2aaa39db66d1f4ed869697ddad087b038436243f9cbaa24aa3af8469d765fdc",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/scheduler/scheduler.py",
+    "destination": "model/vendor/openpoints/scheduler/scheduler.py",
+    "source_sha256": "ca11ac898a06806e2e817b1d4ae902c852ba95e1748f96c39badce4211858c0a",
+    "packaged_sha256": "ca11ac898a06806e2e817b1d4ae902c852ba95e1748f96c39badce4211858c0a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/scheduler/scheduler_factory.py",
+    "destination": "model/vendor/openpoints/scheduler/scheduler_factory.py",
+    "source_sha256": "1705c66ba8211cb2e6cdfe109705744f4c7a29287f1c0a6dad5eda25560e2638",
+    "packaged_sha256": "1705c66ba8211cb2e6cdfe109705744f4c7a29287f1c0a6dad5eda25560e2638",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/scheduler/cosine_lr.py",
+    "destination": "model/vendor/openpoints/scheduler/cosine_lr.py",
+    "source_sha256": "23d4842b533a78e4bac1e6c30abc7ef8cb391eb933f6a98886299ab3ead84074",
+    "packaged_sha256": "23d4842b533a78e4bac1e6c30abc7ef8cb391eb933f6a98886299ab3ead84074",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/scheduler/plateau_lr.py",
+    "destination": "model/vendor/openpoints/scheduler/plateau_lr.py",
+    "source_sha256": "f37d4b07c5c4da71824a65d279685237c6c3aff4b8ad2f66011d5364d97eb6d0",
+    "packaged_sha256": "f37d4b07c5c4da71824a65d279685237c6c3aff4b8ad2f66011d5364d97eb6d0",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/scheduler/__init__.py",
+    "destination": "model/vendor/openpoints/scheduler/__init__.py",
+    "source_sha256": "e6033aa3193073c2db548896b9ede77f8f87c66e5a4a11b35b168106f97bfd4b",
+    "packaged_sha256": "e6033aa3193073c2db548896b9ede77f8f87c66e5a4a11b35b168106f97bfd4b",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/scheduler/tanh_lr.py",
+    "destination": "model/vendor/openpoints/scheduler/tanh_lr.py",
+    "source_sha256": "2e1ade0981a3551482ae6ac147539deb8224f385fd2b8df042602e366d12f446",
+    "packaged_sha256": "2e1ade0981a3551482ae6ac147539deb8224f385fd2b8df042602e366d12f446",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/scheduler/poly_lr.py",
+    "destination": "model/vendor/openpoints/scheduler/poly_lr.py",
+    "source_sha256": "ca5186b1e0672199aa06453108502962ef70abb369e8bc84fcc4f7e8ae3494ac",
+    "packaged_sha256": "ca5186b1e0672199aa06453108502962ef70abb369e8bc84fcc4f7e8ae3494ac",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/simpleview.py",
+    "destination": "model/vendor/openpoints/models/backbone/simpleview.py",
+    "source_sha256": "41794ed70dbcfd3d7b9b71bcf94b3c8c4ca95cbde0f7dcdb963a40a249f82e52",
+    "packaged_sha256": "41794ed70dbcfd3d7b9b71bcf94b3c8c4ca95cbde0f7dcdb963a40a249f82e52",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/resnet.py",
+    "destination": "model/vendor/openpoints/models/backbone/resnet.py",
+    "source_sha256": "12b824918d0921e8b17d94f6fce2da82cc97ab871e2100f42180f0a1e06912da",
+    "packaged_sha256": "12b824918d0921e8b17d94f6fce2da82cc97ab871e2100f42180f0a1e06912da",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pointnext.py",
+    "destination": "model/vendor/openpoints/models/backbone/pointnext.py",
+    "source_sha256": "a1267d1db3809525cf3172933ac268182c1fcdbd0c1cde4617e931475ad54fbb",
+    "packaged_sha256": "a1267d1db3809525cf3172933ac268182c1fcdbd0c1cde4617e931475ad54fbb",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/dgcnn.py",
+    "destination": "model/vendor/openpoints/models/backbone/dgcnn.py",
+    "source_sha256": "61524eff6ce7d37e8742dd293641465a26e5b7c49d9abe493dc67aff0ecc59ba",
+    "packaged_sha256": "61524eff6ce7d37e8742dd293641465a26e5b7c49d9abe493dc67aff0ecc59ba",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/ball_dgcnn.py",
+    "destination": "model/vendor/openpoints/models/backbone/ball_dgcnn.py",
+    "source_sha256": "eab29c90c638be3ab42d547c404efac3712d34aa9bcae2033042821762c7d1ef",
+    "packaged_sha256": "eab29c90c638be3ab42d547c404efac3712d34aa9bcae2033042821762c7d1ef",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/randlenet.py",
+    "destination": "model/vendor/openpoints/models/backbone/randlenet.py",
+    "source_sha256": "00b268cd022d286206956e9cd95fc59ebf7204a20e22afeed6b035af979a3aa0",
+    "packaged_sha256": "00b268cd022d286206956e9cd95fc59ebf7204a20e22afeed6b035af979a3aa0",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/Stratified_transformer.py",
+    "destination": "model/vendor/openpoints/models/backbone/Stratified_transformer.py",
+    "source_sha256": "bc264539cbf62caa4a364467711f50dfe489fe2e038191880603cd7a9f5c61ed",
+    "packaged_sha256": "bc264539cbf62caa4a364467711f50dfe489fe2e038191880603cd7a9f5c61ed",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pointmetabaselinenope.py",
+    "destination": "model/vendor/openpoints/models/backbone/pointmetabaselinenope.py",
+    "source_sha256": "a68dffad525070030ceec116a1b64e257446e825e771bbb56c4fc87b9f829304",
+    "packaged_sha256": "a68dffad525070030ceec116a1b64e257446e825e771bbb56c4fc87b9f829304",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/sfc_vit.py",
+    "destination": "model/vendor/openpoints/models/backbone/sfc_vit.py",
+    "source_sha256": "9ff9014141296fc762ef841121e0c95aed8785079a39538ec0e5d000e2ca025a",
+    "packaged_sha256": "9ff9014141296fc762ef841121e0c95aed8785079a39538ec0e5d000e2ca025a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pointmlp.py",
+    "destination": "model/vendor/openpoints/models/backbone/pointmlp.py",
+    "source_sha256": "6e6004c0a9187526c93c34cc2f35431e7813c769c219e9c19ddb14de5cf0fb79",
+    "packaged_sha256": "6e6004c0a9187526c93c34cc2f35431e7813c769c219e9c19ddb14de5cf0fb79",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/deepgcn.py",
+    "destination": "model/vendor/openpoints/models/backbone/deepgcn.py",
+    "source_sha256": "ea3fe710568ad7742bad3bd3cc0249bc3b536ec2bb08b6d26158d6989fe4f7e3",
+    "packaged_sha256": "ea3fe710568ad7742bad3bd3cc0249bc3b536ec2bb08b6d26158d6989fe4f7e3",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pointmetabaselineepe.py",
+    "destination": "model/vendor/openpoints/models/backbone/pointmetabaselineepe.py",
+    "source_sha256": "e0a2a75c6007a30409a70b457c55146ff8347cc6da0d18a684aa9d1103f486f9",
+    "packaged_sha256": "e0a2a75c6007a30409a70b457c55146ff8347cc6da0d18a684aa9d1103f486f9",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pointtransformer.py",
+    "destination": "model/vendor/openpoints/models/backbone/pointtransformer.py",
+    "source_sha256": "50697ead8597306009f14e9eb0f05671d94b42f8142c221b908c4d5f1e1b824b",
+    "packaged_sha256": "50697ead8597306009f14e9eb0f05671d94b42f8142c221b908c4d5f1e1b824b",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pointmetabase_X3D.py",
+    "destination": "model/vendor/openpoints/models/backbone/pointmetabase_X3D.py",
+    "source_sha256": "7a6d88129504e38226368e24f392fc14675b885abdbfef02d9f33fd08d325461",
+    "packaged_sha256": "7a6d88129504e38226368e24f392fc14675b885abdbfef02d9f33fd08d325461",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pct.py",
+    "destination": "model/vendor/openpoints/models/backbone/pct.py",
+    "source_sha256": "4dc2d8b5586b744b6f07b82d1d1d1806ffb1c5e0bf2df2d8fdd95d5aa5d29923",
+    "packaged_sha256": "4dc2d8b5586b744b6f07b82d1d1d1806ffb1c5e0bf2df2d8fdd95d5aa5d29923",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pointnetv2.py",
+    "destination": "model/vendor/openpoints/models/backbone/pointnetv2.py",
+    "source_sha256": "b87f045f0a378c11c7edde36dd0136f080da72b7e7cfb4ae6a1e64e7db2bd82d",
+    "packaged_sha256": "b87f045f0a378c11c7edde36dd0136f080da72b7e7cfb4ae6a1e64e7db2bd82d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/curvenet.py",
+    "destination": "model/vendor/openpoints/models/backbone/curvenet.py",
+    "source_sha256": "79a8e8a2cb34272c43cf31500c729df4a3f00a109809041c51edb00f19f36f11",
+    "packaged_sha256": "79a8e8a2cb34272c43cf31500c729df4a3f00a109809041c51edb00f19f36f11",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/baafnet.py",
+    "destination": "model/vendor/openpoints/models/backbone/baafnet.py",
+    "source_sha256": "fef748a4f7fb82551c37eb8990a97106f657e2bb7bd35533d58f5ed77d504ac9",
+    "packaged_sha256": "fef748a4f7fb82551c37eb8990a97106f657e2bb7bd35533d58f5ed77d504ac9",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/__init__.py",
+    "destination": "model/vendor/openpoints/models/backbone/__init__.py",
+    "source_sha256": "785374ed4c45ecc641494f5f232e0b4f8c2112e51e160ff4909ab051987d03bd",
+    "packaged_sha256": "785374ed4c45ecc641494f5f232e0b4f8c2112e51e160ff4909ab051987d03bd",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pointmetabase.py",
+    "destination": "model/vendor/openpoints/models/backbone/pointmetabase.py",
+    "source_sha256": "55e35a30942dec06ab2b584db379648428004b719934184c5dd006d7a1c2291a",
+    "packaged_sha256": "55e35a30942dec06ab2b584db379648428004b719934184c5dd006d7a1c2291a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pointmetabaselineepedp.py",
+    "destination": "model/vendor/openpoints/models/backbone/pointmetabaselineepedp.py",
+    "source_sha256": "fcb7e551cb3043930ad83aa229dc5d09c02f5d7630249f63be0d8dd2ce7d512f",
+    "packaged_sha256": "fcb7e551cb3043930ad83aa229dc5d09c02f5d7630249f63be0d8dd2ce7d512f",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/graphvit3d.py",
+    "destination": "model/vendor/openpoints/models/backbone/graphvit3d.py",
+    "source_sha256": "41eb77f2c1bec5d3943e414408e6fa5f7ba2d29a80b13bf914e774ae07d54520",
+    "packaged_sha256": "41eb77f2c1bec5d3943e414408e6fa5f7ba2d29a80b13bf914e774ae07d54520",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pointvit.py",
+    "destination": "model/vendor/openpoints/models/backbone/pointvit.py",
+    "source_sha256": "5c1072312b3047bceae3b3bfe63cafb6316c00867b419a3a1f2608764be857cb",
+    "packaged_sha256": "5c1072312b3047bceae3b3bfe63cafb6316c00867b419a3a1f2608764be857cb",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/simpleview_util.py",
+    "destination": "model/vendor/openpoints/models/backbone/simpleview_util.py",
+    "source_sha256": "ac7de197bcaae933553d18c2bf9c07eb7a5d61b80bca7143abd2287ea3d39c76",
+    "packaged_sha256": "ac7de197bcaae933553d18c2bf9c07eb7a5d61b80bca7143abd2287ea3d39c76",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/grouppointnet.py",
+    "destination": "model/vendor/openpoints/models/backbone/grouppointnet.py",
+    "source_sha256": "4eb5d0df16ef2293d405c9c577262e15b426f7b4087e1d76c6a3d908d1c1139f",
+    "packaged_sha256": "4eb5d0df16ef2293d405c9c577262e15b426f7b4087e1d76c6a3d908d1c1139f",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pointnet.py",
+    "destination": "model/vendor/openpoints/models/backbone/pointnet.py",
+    "source_sha256": "1efa9a5b8295e15d9174a8bb4d8bc97e2bf0d2d66aca5ac61a427a54c3ac1eb7",
+    "packaged_sha256": "1efa9a5b8295e15d9174a8bb4d8bc97e2bf0d2d66aca5ac61a427a54c3ac1eb7",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/pointnextPyG.py",
+    "destination": "model/vendor/openpoints/models/backbone/pointnextPyG.py",
+    "source_sha256": "6c8cefd06002b9e4bf23a8522ae783c9faadd7d7a782f84813d54100762bf22f",
+    "packaged_sha256": "6c8cefd06002b9e4bf23a8522ae783c9faadd7d7a782f84813d54100762bf22f",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/variable_pointnext.py",
+    "destination": "model/vendor/openpoints/models/backbone/variable_pointnext.py",
+    "source_sha256": "475ae50f93d429a131b78cade2cecc4a6a1c8625195ff06505b0381da89f1125",
+    "packaged_sha256": "475ae50f93d429a131b78cade2cecc4a6a1c8625195ff06505b0381da89f1125",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/reconstruction/maskedpointgroup.py",
+    "destination": "model/vendor/openpoints/models/reconstruction/maskedpointgroup.py",
+    "source_sha256": "e2bdd2cd0f8f029a7cc880a3802484f6fb58eb4d68d692ab2bb745e3fcc122bd",
+    "packaged_sha256": "e2bdd2cd0f8f029a7cc880a3802484f6fb58eb4d68d692ab2bb745e3fcc122bd",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/reconstruction/base_recontruct.py",
+    "destination": "model/vendor/openpoints/models/reconstruction/base_recontruct.py",
+    "source_sha256": "f3d9b95819955a8983a756fdd387fea9c689a0cbf77803c9bd3629afb06054a9",
+    "packaged_sha256": "f3d9b95819955a8983a756fdd387fea9c689a0cbf77803c9bd3629afb06054a9",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/reconstruction/maskedpointvit.py",
+    "destination": "model/vendor/openpoints/models/reconstruction/maskedpointvit.py",
+    "source_sha256": "5dce2723df876a4dfa652afbd15927e7536fc806daab63b8c1fe815f6f6f9af7",
+    "packaged_sha256": "5dce2723df876a4dfa652afbd15927e7536fc806daab63b8c1fe815f6f6f9af7",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/reconstruction/__init__.py",
+    "destination": "model/vendor/openpoints/models/reconstruction/__init__.py",
+    "source_sha256": "d256c43988e87948f6dfe0eab65fcc260b3ed1671d41d65da2c1890518f0ecda",
+    "packaged_sha256": "d256c43988e87948f6dfe0eab65fcc260b3ed1671d41d65da2c1890518f0ecda",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/reconstruction/maskedpoint.py",
+    "destination": "model/vendor/openpoints/models/reconstruction/maskedpoint.py",
+    "source_sha256": "c54470235445be44e1d0d3b1de6f3a0913e2505aad99de7e20b23a3c46d5c857",
+    "packaged_sha256": "c54470235445be44e1d0d3b1de6f3a0913e2505aad99de7e20b23a3c46d5c857",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/reconstruction/nodeshuffle.py",
+    "destination": "model/vendor/openpoints/models/reconstruction/nodeshuffle.py",
+    "source_sha256": "303a1f8c5e3c77b680563cd12afaf79dbab911624aa2f9c91838785172fc67dc",
+    "packaged_sha256": "303a1f8c5e3c77b680563cd12afaf79dbab911624aa2f9c91838785172fc67dc",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/classification/point_bert.py",
+    "destination": "model/vendor/openpoints/models/classification/point_bert.py",
+    "source_sha256": "3358a2ba36a59ef5a1fdcac3cae3e6fd34703b0ad20e07e8eafda50a551bbbc3",
+    "packaged_sha256": "3358a2ba36a59ef5a1fdcac3cae3e6fd34703b0ad20e07e8eafda50a551bbbc3",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/classification/__init__.py",
+    "destination": "model/vendor/openpoints/models/classification/__init__.py",
+    "source_sha256": "6759fa8cf99f75c1ed30767fae40b82eb60cfefb58afe21f43d5595a3223a65d",
+    "packaged_sha256": "6759fa8cf99f75c1ed30767fae40b82eb60cfefb58afe21f43d5595a3223a65d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/classification/cls_base.py",
+    "destination": "model/vendor/openpoints/models/classification/cls_base.py",
+    "source_sha256": "8844a70a75a12c26495fe2cde8e1faadce9926c5875e232e74b4959a35ebd96d",
+    "packaged_sha256": "8844a70a75a12c26495fe2cde8e1faadce9926c5875e232e74b4959a35ebd96d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/local_aggregation.py",
+    "destination": "model/vendor/openpoints/models/layers/local_aggregation.py",
+    "source_sha256": "6c26fdd7fe89ec8e6067cf06187cd0038c4e70996dd7f9ac2561d17ffdddfa5e",
+    "packaged_sha256": "6c26fdd7fe89ec8e6067cf06187cd0038c4e70996dd7f9ac2561d17ffdddfa5e",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/attention.py",
+    "destination": "model/vendor/openpoints/models/layers/attention.py",
+    "source_sha256": "f31d41642d77c94b482975e8bb6c6070d6228e8149a6a805461bea425e17ee1c",
+    "packaged_sha256": "f31d41642d77c94b482975e8bb6c6070d6228e8149a6a805461bea425e17ee1c",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/padding.py",
+    "destination": "model/vendor/openpoints/models/layers/padding.py",
+    "source_sha256": "0636edc499ae8be0f27aba19a2160c751023e66478a3aa56816d388a68b78432",
+    "packaged_sha256": "0636edc499ae8be0f27aba19a2160c751023e66478a3aa56816d388a68b78432",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/subsample.py",
+    "destination": "model/vendor/openpoints/models/layers/subsample.py",
+    "source_sha256": "8a51d7ccc8f505a6658b563dfb640a2c63d4947a8afc2840ca9cdcd85eae3240",
+    "packaged_sha256": "8a51d7ccc8f505a6658b563dfb640a2c63d4947a8afc2840ca9cdcd85eae3240",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/knn.py",
+    "destination": "model/vendor/openpoints/models/layers/knn.py",
+    "source_sha256": "b7e6ee7434cdbf95e8e7bafd7e02944e1d774a2031c1fca13134d94454e7c51b",
+    "packaged_sha256": "b7e6ee7434cdbf95e8e7bafd7e02944e1d774a2031c1fca13134d94454e7c51b",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/helpers.py",
+    "destination": "model/vendor/openpoints/models/layers/helpers.py",
+    "source_sha256": "2b82c367a401b9d56e18cf251dd8bed6b041c85ca0b82917dbc57189f6319044",
+    "packaged_sha256": "2b82c367a401b9d56e18cf251dd8bed6b041c85ca0b82917dbc57189f6319044",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/activation.py",
+    "destination": "model/vendor/openpoints/models/layers/activation.py",
+    "source_sha256": "246a85ff9e13ab216e607124bdf9264d2d2f9892f5e35db7d15d7695c1d4d817",
+    "packaged_sha256": "246a85ff9e13ab216e607124bdf9264d2d2f9892f5e35db7d15d7695c1d4d817",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/group_embed.py",
+    "destination": "model/vendor/openpoints/models/layers/group_embed.py",
+    "source_sha256": "481094da8e07ee311294ea373c91c8d80ec357768e8f415571faa62f4704d615",
+    "packaged_sha256": "481094da8e07ee311294ea373c91c8d80ec357768e8f415571faa62f4704d615",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/mlp.py",
+    "destination": "model/vendor/openpoints/models/layers/mlp.py",
+    "source_sha256": "6c252b638928e99b0115cb8244146e0125ba21aeb5277189c05790918c2b59f2",
+    "packaged_sha256": "6c252b638928e99b0115cb8244146e0125ba21aeb5277189c05790918c2b59f2",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/weight_init.py",
+    "destination": "model/vendor/openpoints/models/layers/weight_init.py",
+    "source_sha256": "11b84ad1e7236bae192787972e90d5b3b90bb1eba6241952cd681b1bdbf91cbe",
+    "packaged_sha256": "11b84ad1e7236bae192787972e90d5b3b90bb1eba6241952cd681b1bdbf91cbe",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/conv.py",
+    "destination": "model/vendor/openpoints/models/layers/conv.py",
+    "source_sha256": "eadd5c38d77ea1a1c19b16e040faa13e52ef0089f783f0c39d06a9df75999eaa",
+    "packaged_sha256": "eadd5c38d77ea1a1c19b16e040faa13e52ef0089f783f0c39d06a9df75999eaa",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/norm.py",
+    "destination": "model/vendor/openpoints/models/layers/norm.py",
+    "source_sha256": "4f66c04efdf3a16f941c3e7702fe252f9d64dfac7072d9ad073f4eeea839fe7d",
+    "packaged_sha256": "4f66c04efdf3a16f941c3e7702fe252f9d64dfac7072d9ad073f4eeea839fe7d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/group.py",
+    "destination": "model/vendor/openpoints/models/layers/group.py",
+    "source_sha256": "ded440d023db412469c4764a2caad11fe05403208df4a0631ed62b9847681261",
+    "packaged_sha256": "ded440d023db412469c4764a2caad11fe05403208df4a0631ed62b9847681261",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/__init__.py",
+    "destination": "model/vendor/openpoints/models/layers/__init__.py",
+    "source_sha256": "c5737112c347c9523753f25d75f133472f5159baa7eb891a842125b0ec3fe3dc",
+    "packaged_sha256": "c5737112c347c9523753f25d75f133472f5159baa7eb891a842125b0ec3fe3dc",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/graph_conv.py",
+    "destination": "model/vendor/openpoints/models/layers/graph_conv.py",
+    "source_sha256": "528ef21d42a152d29f756e768bd229d9029e5abfb5fc8e41b9e96c544d5da4d0",
+    "packaged_sha256": "528ef21d42a152d29f756e768bd229d9029e5abfb5fc8e41b9e96c544d5da4d0",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/patch_embed.py",
+    "destination": "model/vendor/openpoints/models/layers/patch_embed.py",
+    "source_sha256": "c8340360691c4c86523bec490a99cf6a86240408a6def2e6616945619bba86f8",
+    "packaged_sha256": "c8340360691c4c86523bec490a99cf6a86240408a6def2e6616945619bba86f8",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/kmeans.py",
+    "destination": "model/vendor/openpoints/models/layers/kmeans.py",
+    "source_sha256": "6e6d2ae17a7fdc0f97e985c07d42a20e09df454bab2c332ad37d10302e91b721",
+    "packaged_sha256": "6e6d2ae17a7fdc0f97e985c07d42a20e09df454bab2c332ad37d10302e91b721",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/registry.py",
+    "destination": "model/vendor/openpoints/models/layers/registry.py",
+    "source_sha256": "06c642c51bd5d28a1ec68674877fa3c86d0d8507780d0158c8c8dff408c7851d",
+    "packaged_sha256": "06c642c51bd5d28a1ec68674877fa3c86d0d8507780d0158c8c8dff408c7851d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/drop.py",
+    "destination": "model/vendor/openpoints/models/layers/drop.py",
+    "source_sha256": "98ffd02222f81c55ae5e5cf12c013f96fcdb40735c43ffb753f707f0924f1f8b",
+    "packaged_sha256": "98ffd02222f81c55ae5e5cf12c013f96fcdb40735c43ffb753f707f0924f1f8b",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/layers/upsampling.py",
+    "destination": "model/vendor/openpoints/models/layers/upsampling.py",
+    "source_sha256": "c45c6e9771a419e775839a647dab53bd5098546ecce6dcd269a7002078d99a73",
+    "packaged_sha256": "c45c6e9771a419e775839a647dab53bd5098546ecce6dcd269a7002078d99a73",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/segmentation/vit_seg.py",
+    "destination": "model/vendor/openpoints/models/segmentation/vit_seg.py",
+    "source_sha256": "1a2ddbd385f573e607e2ab3b054a68514abac7675bec7ec61f817be9c7a7798a",
+    "packaged_sha256": "1a2ddbd385f573e607e2ab3b054a68514abac7675bec7ec61f817be9c7a7798a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/segmentation/__init__.py",
+    "destination": "model/vendor/openpoints/models/segmentation/__init__.py",
+    "source_sha256": "b38c678a9b1328941a1ed8c14bf397e0d7ee5b129b36669b677875d19a8cc37f",
+    "packaged_sha256": "b38c678a9b1328941a1ed8c14bf397e0d7ee5b129b36669b677875d19a8cc37f",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/segmentation/base_seg.py",
+    "destination": "model/vendor/openpoints/models/segmentation/base_seg.py",
+    "source_sha256": "b8ccce8716d86d42516b066429849ea70631d4f8238ea72215ca6f82d9be2ef6",
+    "packaged_sha256": "b8ccce8716d86d42516b066429849ea70631d4f8238ea72215ca6f82d9be2ef6",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/X_3D_utils/explict_structure.py",
+    "destination": "model/vendor/openpoints/models/backbone/X_3D_utils/explict_structure.py",
+    "source_sha256": "558274845c4ee7fee7feef8bb6ec8fa97822a21fc21e7b9e8d2cff444682b002",
+    "packaged_sha256": "558274845c4ee7fee7feef8bb6ec8fa97822a21fc21e7b9e8d2cff444682b002",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/X_3D_utils/structure_kernel.py",
+    "destination": "model/vendor/openpoints/models/backbone/X_3D_utils/structure_kernel.py",
+    "source_sha256": "583b10e36e1a2e41e916997cd4c08c544a22a8b64d800d9b554660937511f465",
+    "packaged_sha256": "583b10e36e1a2e41e916997cd4c08c544a22a8b64d800d9b554660937511f465",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/X_3D_utils/__init__.py",
+    "destination": "model/vendor/openpoints/models/backbone/X_3D_utils/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/models/backbone/X_3D_utils/neighbor_context.py",
+    "destination": "model/vendor/openpoints/models/backbone/X_3D_utils/neighbor_context.py",
+    "source_sha256": "2d6824de23871be1e617fa853ff8b666266aaca04380d8e106790624d2168856",
+    "packaged_sha256": "2d6824de23871be1e617fa853ff8b666266aaca04380d8e106790624d2168856",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/subsampling/wrapper.cpp",
+    "destination": "model/vendor/openpoints/cpp/subsampling/wrapper.cpp",
+    "source_sha256": "80aa762dc4bee5bc5930c6cdf5f6ce5d2fa683050c432f51dd2bebbe1db05c2a",
+    "packaged_sha256": "80aa762dc4bee5bc5930c6cdf5f6ce5d2fa683050c432f51dd2bebbe1db05c2a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/subsampling/setup.py",
+    "destination": "model/vendor/openpoints/cpp/subsampling/setup.py",
+    "source_sha256": "0c9cf9f19f2e1af71880e80daf93d03176c4c94381b821ae9f889f7600f25f22",
+    "packaged_sha256": "0c9cf9f19f2e1af71880e80daf93d03176c4c94381b821ae9f889f7600f25f22",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/chamfer_dist/setup.py",
+    "destination": "model/vendor/openpoints/cpp/chamfer_dist/setup.py",
+    "source_sha256": "e212a67b47d05ae9c7eeb239a992954d27c658cde3be2b03681237479120c950",
+    "packaged_sha256": "e212a67b47d05ae9c7eeb239a992954d27c658cde3be2b03681237479120c950",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/chamfer_dist/__init__.py",
+    "destination": "model/vendor/openpoints/cpp/chamfer_dist/__init__.py",
+    "source_sha256": "d1a88f9502e491472e82d2a459342ef9a20c8dadaa0758394baf19ef0dd74916",
+    "packaged_sha256": "d1a88f9502e491472e82d2a459342ef9a20c8dadaa0758394baf19ef0dd74916",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/chamfer_dist/test.py",
+    "destination": "model/vendor/openpoints/cpp/chamfer_dist/test.py",
+    "source_sha256": "7c40579a26ed20588b3490cfcf9499e0b215f32a78cc1672b8c98cf0f2ab7cf0",
+    "packaged_sha256": "7c40579a26ed20588b3490cfcf9499e0b215f32a78cc1672b8c98cf0f2ab7cf0",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/chamfer_dist/chamfer.cu",
+    "destination": "model/vendor/openpoints/cpp/chamfer_dist/chamfer.cu",
+    "source_sha256": "44214537a9135fc7f7691684cc3972b7f1a00e931ea035482744a1eb5211a8bb",
+    "packaged_sha256": "44214537a9135fc7f7691684cc3972b7f1a00e931ea035482744a1eb5211a8bb",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/chamfer_dist/chamfer_cuda.cpp",
+    "destination": "model/vendor/openpoints/cpp/chamfer_dist/chamfer_cuda.cpp",
+    "source_sha256": "abbf40d5f6e30c553bd0e5f1813b0e5f3493c3c2c8a010947e056f088b07efd7",
+    "packaged_sha256": "abbf40d5f6e30c553bd0e5f1813b0e5f3493c3c2c8a010947e056f088b07efd7",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/emd/emd.py",
+    "destination": "model/vendor/openpoints/cpp/emd/emd.py",
+    "source_sha256": "f89515766b6db3355fe7920e7b793b7b3fde0868d393952f230fe0efc61947d7",
+    "packaged_sha256": "f89515766b6db3355fe7920e7b793b7b3fde0868d393952f230fe0efc61947d7",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/emd/test_emd_loss.py",
+    "destination": "model/vendor/openpoints/cpp/emd/test_emd_loss.py",
+    "source_sha256": "b5dfce08ab3cfba25f290f6535498dddba850d4c8f296f2a70deab89ff286a61",
+    "packaged_sha256": "b5dfce08ab3cfba25f290f6535498dddba850d4c8f296f2a70deab89ff286a61",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/emd/setup.py",
+    "destination": "model/vendor/openpoints/cpp/emd/setup.py",
+    "source_sha256": "ac284c66df346ea6d6eaa7ff38fb08520c239833249f558f71893e2be57f1505",
+    "packaged_sha256": "ac284c66df346ea6d6eaa7ff38fb08520c239833249f558f71893e2be57f1505",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/emd/__init__.py",
+    "destination": "model/vendor/openpoints/cpp/emd/__init__.py",
+    "source_sha256": "b3727921215bdd4b7113d35a1147dac744a425921c71a9c567831a4af32177cb",
+    "packaged_sha256": "b3727921215bdd4b7113d35a1147dac744a425921c71a9c567831a4af32177cb",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/emd/README.md",
+    "destination": "model/vendor/openpoints/cpp/emd/README.md",
+    "source_sha256": "563d0a894b9e2b7225a6f972b5c2b69d86e4c824a33ab57c6d4b1dd0fd72af2a",
+    "packaged_sha256": "563d0a894b9e2b7225a6f972b5c2b69d86e4c824a33ab57c6d4b1dd0fd72af2a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/setup.py",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/setup.py",
+    "source_sha256": "274ce48c079b408f79c773da8f4ac2af1788d1e7c54f71de4d0ef2290e548328",
+    "packaged_sha256": "274ce48c079b408f79c773da8f4ac2af1788d1e7c54f71de4d0ef2290e548328",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/__init__.py",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/__init__.py",
+    "source_sha256": "2745cca70e012b4b7d9d6692d94877a1dc34d256d961916cc66fbd02d4878583",
+    "packaged_sha256": "2745cca70e012b4b7d9d6692d94877a1dc34d256d961916cc66fbd02d4878583",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/setup.py",
+    "destination": "model/vendor/openpoints/cpp/pointops/setup.py",
+    "source_sha256": "c79cfbc26d8d61f8fa3a24159990a210c7ca96ff71a7e4bae7d6139762abe296",
+    "packaged_sha256": "c79cfbc26d8d61f8fa3a24159990a210c7ca96ff71a7e4bae7d6139762abe296",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/__init__.py",
+    "destination": "model/vendor/openpoints/cpp/pointops/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/functions/pointops.py",
+    "destination": "model/vendor/openpoints/cpp/pointops/functions/pointops.py",
+    "source_sha256": "e7b2bcfc1427397e1b26387df226f427332cc382e20a34d2dbef2c620e7490a6",
+    "packaged_sha256": "e7b2bcfc1427397e1b26387df226f427332cc382e20a34d2dbef2c620e7490a6",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/functions/__init__.py",
+    "destination": "model/vendor/openpoints/cpp/pointops/functions/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/pointops.egg-info/dependency_links.txt",
+    "destination": "model/vendor/openpoints/cpp/pointops/pointops.egg-info/dependency_links.txt",
+    "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "packaged_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/pointops.egg-info/top_level.txt",
+    "destination": "model/vendor/openpoints/cpp/pointops/pointops.egg-info/top_level.txt",
+    "source_sha256": "b4edb301efa6b9152ee03a7bbf58da34a6022886569502eb816434cf47f66981",
+    "packaged_sha256": "b4edb301efa6b9152ee03a7bbf58da34a6022886569502eb816434cf47f66981",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/pointops.egg-info/SOURCES.txt",
+    "destination": "model/vendor/openpoints/cpp/pointops/pointops.egg-info/SOURCES.txt",
+    "source_sha256": "64ba67cba6f50937264f0c7f82f31c290bdbd5df55c66738018d2b7a3076146c",
+    "packaged_sha256": "64ba67cba6f50937264f0c7f82f31c290bdbd5df55c66738018d2b7a3076146c",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/cuda_utils.h",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/cuda_utils.h",
+    "source_sha256": "d5f4241b21e4b2489f4f03970544da55900def64ca458cc00dd274bc07ef7f2d",
+    "packaged_sha256": "d5f4241b21e4b2489f4f03970544da55900def64ca458cc00dd274bc07ef7f2d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/__init__.py",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/pointops_api.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/pointops_api.cpp",
+    "source_sha256": "9e20f63f2479f19043f5cb3f9719b936ef94867fc0d088dde16ca7a3501656b2",
+    "packaged_sha256": "9e20f63f2479f19043f5cb3f9719b936ef94867fc0d088dde16ca7a3501656b2",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/interpolation/interpolation_cuda_kernel.cu",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/interpolation/interpolation_cuda_kernel.cu",
+    "source_sha256": "ab7f2d860ed0a65da94e91778baac22151e63e7d8d6881187074a90d6f84f7f2",
+    "packaged_sha256": "ab7f2d860ed0a65da94e91778baac22151e63e7d8d6881187074a90d6f84f7f2",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/interpolation/interpolation_cuda.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/interpolation/interpolation_cuda.cpp",
+    "source_sha256": "2c5a8b5538281e7717548773227cbd3cbfb288ec1a1c1c2f63198c210a600365",
+    "packaged_sha256": "2c5a8b5538281e7717548773227cbd3cbfb288ec1a1c1c2f63198c210a600365",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/interpolation/interpolation_cuda_kernel.h",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/interpolation/interpolation_cuda_kernel.h",
+    "source_sha256": "9f926b78dfffe53e87d6fdfbfa87177396b97ca584fb40a925b84cc8212e8ec1",
+    "packaged_sha256": "9f926b78dfffe53e87d6fdfbfa87177396b97ca584fb40a925b84cc8212e8ec1",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/grouping/grouping_cuda_kernel.cu",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/grouping/grouping_cuda_kernel.cu",
+    "source_sha256": "d8dedca5a5e9baf252860d2c3f1e0d23bfd388240840edb0beb6acd9d6e0f601",
+    "packaged_sha256": "d8dedca5a5e9baf252860d2c3f1e0d23bfd388240840edb0beb6acd9d6e0f601",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/grouping/grouping_cuda.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/grouping/grouping_cuda.cpp",
+    "source_sha256": "d6312a02489f82801963a64f9bc6e6c83df2d68aa36548f0ed73b446a43ff819",
+    "packaged_sha256": "d6312a02489f82801963a64f9bc6e6c83df2d68aa36548f0ed73b446a43ff819",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/grouping/grouping_cuda_kernel.h",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/grouping/grouping_cuda_kernel.h",
+    "source_sha256": "dadcdccf6582ed45f9ffd8fe0d17ddc5bd4fe2078c5e84643a0ac53a2f977b5b",
+    "packaged_sha256": "dadcdccf6582ed45f9ffd8fe0d17ddc5bd4fe2078c5e84643a0ac53a2f977b5b",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/ballquery/ballquery_cuda_kernel.cu",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/ballquery/ballquery_cuda_kernel.cu",
+    "source_sha256": "98ab46f30042dd60addb1d51d98ae33d9db4332c7316e456443136a02ad62079",
+    "packaged_sha256": "98ab46f30042dd60addb1d51d98ae33d9db4332c7316e456443136a02ad62079",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/ballquery/ballquery_cuda.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/ballquery/ballquery_cuda.cpp",
+    "source_sha256": "2e73420195b23313a14e64d3b6cc20908ba92174e6dccb3b30fd4488addc673a",
+    "packaged_sha256": "2e73420195b23313a14e64d3b6cc20908ba92174e6dccb3b30fd4488addc673a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/ballquery/ballquery_cuda_kernel.h",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/ballquery/ballquery_cuda_kernel.h",
+    "source_sha256": "1be6a902fa31e5cb600c901026ff13a8472d4ce4fbbd068b01fdba5e9aab4276",
+    "packaged_sha256": "1be6a902fa31e5cb600c901026ff13a8472d4ce4fbbd068b01fdba5e9aab4276",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/sampling/sampling_cuda_kernel.cu",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/sampling/sampling_cuda_kernel.cu",
+    "source_sha256": "2056408cd7fad30e14a29caf748ab44971e48e2b0580a4abff2c0dfed5c1c2d6",
+    "packaged_sha256": "2056408cd7fad30e14a29caf748ab44971e48e2b0580a4abff2c0dfed5c1c2d6",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/sampling/sampling_cuda_kernel.h",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/sampling/sampling_cuda_kernel.h",
+    "source_sha256": "5e651d12975fc92514d3fcf6542255ed127f3b19805335907dd52fe2cddafe09",
+    "packaged_sha256": "5e651d12975fc92514d3fcf6542255ed127f3b19805335907dd52fe2cddafe09",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/sampling/sampling_cuda.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/sampling/sampling_cuda.cpp",
+    "source_sha256": "54a6fb996ff079c757dad071ebfe2d7fac8a70d378b6134c7bde0aab68c91497",
+    "packaged_sha256": "54a6fb996ff079c757dad071ebfe2d7fac8a70d378b6134c7bde0aab68c91497",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/subtraction/subtraction_cuda.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/subtraction/subtraction_cuda.cpp",
+    "source_sha256": "5cd0535811e194e22b80967c99a0b14e67bb4db4c3d9192aa4920831c0ab22dc",
+    "packaged_sha256": "5cd0535811e194e22b80967c99a0b14e67bb4db4c3d9192aa4920831c0ab22dc",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/subtraction/subtraction_cuda_kernel.cu",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/subtraction/subtraction_cuda_kernel.cu",
+    "source_sha256": "531cba1ca2dc061212cb0b44defaff117da8ca8fa21924d7b5a72e3f57566a4d",
+    "packaged_sha256": "531cba1ca2dc061212cb0b44defaff117da8ca8fa21924d7b5a72e3f57566a4d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/subtraction/subtraction_cuda_kernel.h",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/subtraction/subtraction_cuda_kernel.h",
+    "source_sha256": "5ad49f5fd7435906164a79139744c26fdd4f204203e74efd32656d89fbbefa37",
+    "packaged_sha256": "5ad49f5fd7435906164a79139744c26fdd4f204203e74efd32656d89fbbefa37",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/aggregation/aggregation_cuda.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/aggregation/aggregation_cuda.cpp",
+    "source_sha256": "01e671863145fb0fcbf30e38ac5a92cbadfec20ce90b62f3431f8d502d21e04f",
+    "packaged_sha256": "01e671863145fb0fcbf30e38ac5a92cbadfec20ce90b62f3431f8d502d21e04f",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/aggregation/aggregation_cuda_kernel.cu",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/aggregation/aggregation_cuda_kernel.cu",
+    "source_sha256": "c10500f39f0937684ed6b031bdfa9db1a32f8b21030b7c1878f39ec21faedc78",
+    "packaged_sha256": "c10500f39f0937684ed6b031bdfa9db1a32f8b21030b7c1878f39ec21faedc78",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/aggregation/aggregation_cuda_kernel.h",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/aggregation/aggregation_cuda_kernel.h",
+    "source_sha256": "7e0b0af26ae73f2659858a3ab3854fc079d7843c366e38312f6d8d077d02634b",
+    "packaged_sha256": "7e0b0af26ae73f2659858a3ab3854fc079d7843c366e38312f6d8d077d02634b",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/knnquery/knnquery_cuda_kernel.cu",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/knnquery/knnquery_cuda_kernel.cu",
+    "source_sha256": "86759f1152fc0f148819f52de407b16d209745526655e6fc3729b76de1aaf258",
+    "packaged_sha256": "86759f1152fc0f148819f52de407b16d209745526655e6fc3729b76de1aaf258",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/knnquery/knnquery_cuda_kernel.h",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/knnquery/knnquery_cuda_kernel.h",
+    "source_sha256": "cfe97d73cc4207e5c1d840a2828336c3dd12682592aec49e70a7114b94e17cac",
+    "packaged_sha256": "cfe97d73cc4207e5c1d840a2828336c3dd12682592aec49e70a7114b94e17cac",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointops/src/knnquery/knnquery_cuda.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointops/src/knnquery/knnquery_cuda.cpp",
+    "source_sha256": "79e3f1f5ec7b6f79bbe3270d02e241e0195638b5179e6bde439e642b719d44e5",
+    "packaged_sha256": "79e3f1f5ec7b6f79bbe3270d02e241e0195638b5179e6bde439e642b719d44e5",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/pointnet2_cuda.egg-info/dependency_links.txt",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/pointnet2_cuda.egg-info/dependency_links.txt",
+    "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "packaged_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/pointnet2_cuda.egg-info/top_level.txt",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/pointnet2_cuda.egg-info/top_level.txt",
+    "source_sha256": "86d7c2cbf117455b18d2982405fa964f72ca82662c217a5376c37fca7843f8d6",
+    "packaged_sha256": "86d7c2cbf117455b18d2982405fa964f72ca82662c217a5376c37fca7843f8d6",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/pointnet2_cuda.egg-info/SOURCES.txt",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/pointnet2_cuda.egg-info/SOURCES.txt",
+    "source_sha256": "7c7bc19aa733d3e61103205b531cac782256ae5f3e784683832644fe4e743d88",
+    "packaged_sha256": "7c7bc19aa733d3e61103205b531cac782256ae5f3e784683832644fe4e743d88",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/interpolate_gpu.h",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/interpolate_gpu.h",
+    "source_sha256": "1d6c66ff03d32e3e7bc844f2599bb41c26bb8e2b97ebff60061f2ddf67d9f806",
+    "packaged_sha256": "1d6c66ff03d32e3e7bc844f2599bb41c26bb8e2b97ebff60061f2ddf67d9f806",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/ball_query_gpu.cu",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/ball_query_gpu.cu",
+    "source_sha256": "c8f4b27abd9ea23489764e441e5141ce18b4f572baf7ed900614fc6a2d56ed11",
+    "packaged_sha256": "c8f4b27abd9ea23489764e441e5141ce18b4f572baf7ed900614fc6a2d56ed11",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/interpolate.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/interpolate.cpp",
+    "source_sha256": "5eb8566a441494f43c7f0d3949905fcc4234e8da4e9e55e49bc2da064c17a6c4",
+    "packaged_sha256": "5eb8566a441494f43c7f0d3949905fcc4234e8da4e9e55e49bc2da064c17a6c4",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/interpolate_gpu.cu",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/interpolate_gpu.cu",
+    "source_sha256": "4e16680f4fdc95de527cb5093c42306b6eb67ae31c1cbd30b321c6ae62bc56d2",
+    "packaged_sha256": "4e16680f4fdc95de527cb5093c42306b6eb67ae31c1cbd30b321c6ae62bc56d2",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/ball_query_gpu.h",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/ball_query_gpu.h",
+    "source_sha256": "d5f2d88e599d6c947e4b876323f8ad356509bfdaa78852af9f247d59738df43c",
+    "packaged_sha256": "d5f2d88e599d6c947e4b876323f8ad356509bfdaa78852af9f247d59738df43c",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/group_points.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/group_points.cpp",
+    "source_sha256": "cb2a441bfc640693c1a5d6cfbbbbc6ba7b5a08962f6647b86f7be6eb80710520",
+    "packaged_sha256": "cb2a441bfc640693c1a5d6cfbbbbc6ba7b5a08962f6647b86f7be6eb80710520",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/cuda_utils.h",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/cuda_utils.h",
+    "source_sha256": "7ace0019cea06178a57b275d3b1086b26cd5d0c83d646e8b8ae70c530e9e7bca",
+    "packaged_sha256": "7ace0019cea06178a57b275d3b1086b26cd5d0c83d646e8b8ae70c530e9e7bca",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/group_points_gpu.cu",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/group_points_gpu.cu",
+    "source_sha256": "28c79c009da32c14e57d0e45345de92caffec7db31eefa853d971f148c4e2cbf",
+    "packaged_sha256": "28c79c009da32c14e57d0e45345de92caffec7db31eefa853d971f148c4e2cbf",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/sampling.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/sampling.cpp",
+    "source_sha256": "847fc019118bf79232e221d0e9d7cb7686187b5ace8fddbc259c6fc0d59cae45",
+    "packaged_sha256": "847fc019118bf79232e221d0e9d7cb7686187b5ace8fddbc259c6fc0d59cae45",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/pointnet2_api.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/pointnet2_api.cpp",
+    "source_sha256": "1673a7041d21ee3c7f9979b2068a9b6055a99a284a6de640a0c2b1b81c112b95",
+    "packaged_sha256": "1673a7041d21ee3c7f9979b2068a9b6055a99a284a6de640a0c2b1b81c112b95",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/ball_query.cpp",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/ball_query.cpp",
+    "source_sha256": "6d024274392c4fb96d7c4abb5506af127c80dbe93c43a18d96cc20118bc7bb90",
+    "packaged_sha256": "6d024274392c4fb96d7c4abb5506af127c80dbe93c43a18d96cc20118bc7bb90",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/sampling_gpu.h",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/sampling_gpu.h",
+    "source_sha256": "a116fef8b7ea61442c52ddc43282de2d7ccc5ba1fe4f432bdcbd1e1a07d7cf2f",
+    "packaged_sha256": "a116fef8b7ea61442c52ddc43282de2d7ccc5ba1fe4f432bdcbd1e1a07d7cf2f",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/sampling_gpu.cu",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/sampling_gpu.cu",
+    "source_sha256": "5a898832473b159a35e12fa4c639435f37588ffc0a989229694da8d1568f76e5",
+    "packaged_sha256": "5a898832473b159a35e12fa4c639435f37588ffc0a989229694da8d1568f76e5",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/pointnet2_batch/src/group_points_gpu.h",
+    "destination": "model/vendor/openpoints/cpp/pointnet2_batch/src/group_points_gpu.h",
+    "source_sha256": "e75f1a0eb6c18ed28b780daa3c6d82c5fccbf70e79d574f71bd469d5fa22eeaf",
+    "packaged_sha256": "e75f1a0eb6c18ed28b780daa3c6d82c5fccbf70e79d574f71bd469d5fa22eeaf",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/emd/cuda/emd_kernel.cu",
+    "destination": "model/vendor/openpoints/cpp/emd/cuda/emd_kernel.cu",
+    "source_sha256": "0a3e9148b6ccdf4beb85c681cc59d985734d671868a6c43f28437a8cdbf9b201",
+    "packaged_sha256": "0a3e9148b6ccdf4beb85c681cc59d985734d671868a6c43f28437a8cdbf9b201",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/emd/cuda/emd.cpp",
+    "destination": "model/vendor/openpoints/cpp/emd/cuda/emd.cpp",
+    "source_sha256": "391e20612da9982a26fb072a7bb7f6af995e9a3e33279fc31e07096157794e74",
+    "packaged_sha256": "391e20612da9982a26fb072a7bb7f6af995e9a3e33279fc31e07096157794e74",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/subsampling/grid_subsampling/grid_subsampling.h",
+    "destination": "model/vendor/openpoints/cpp/subsampling/grid_subsampling/grid_subsampling.h",
+    "source_sha256": "0257200efa8c87b54874c9e4a72775cce847ab26a9912e6c3f2a625e202ac3bd",
+    "packaged_sha256": "0257200efa8c87b54874c9e4a72775cce847ab26a9912e6c3f2a625e202ac3bd",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/subsampling/grid_subsampling/grid_subsampling.cpp",
+    "destination": "model/vendor/openpoints/cpp/subsampling/grid_subsampling/grid_subsampling.cpp",
+    "source_sha256": "d398c9a92c8aebd482e47a9cd1a825c15e410ab9da1faaa06c9fd2e5cfa77583",
+    "packaged_sha256": "d398c9a92c8aebd482e47a9cd1a825c15e410ab9da1faaa06c9fd2e5cfa77583",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/subsampling/cpp_utils/cloud/cloud.cpp",
+    "destination": "model/vendor/openpoints/cpp/subsampling/cpp_utils/cloud/cloud.cpp",
+    "source_sha256": "dc2982368c7c50cb8e9f2899f96f1e47cf65c7c33103877de5e481d0d1a3c17b",
+    "packaged_sha256": "dc2982368c7c50cb8e9f2899f96f1e47cf65c7c33103877de5e481d0d1a3c17b",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/subsampling/cpp_utils/cloud/cloud.h",
+    "destination": "model/vendor/openpoints/cpp/subsampling/cpp_utils/cloud/cloud.h",
+    "source_sha256": "b7f6c56cd8dd953e2fe8d8264e8b81e0adad711d1ea3697b10d51fb9e185721d",
+    "packaged_sha256": "b7f6c56cd8dd953e2fe8d8264e8b81e0adad711d1ea3697b10d51fb9e185721d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/cpp/subsampling/cpp_utils/nanoflann/nanoflann.hpp",
+    "destination": "model/vendor/openpoints/cpp/subsampling/cpp_utils/nanoflann/nanoflann.hpp",
+    "source_sha256": "0655ba43dcf3be6fc0af4985bb41186520dc3d16f350cce3b6f8f6544361d951",
+    "packaged_sha256": "0655ba43dcf3be6fc0af4985bb41186520dc3d16f350cce3b6f8f6544361d951",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/molpcba/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/molpcba/__init__.py",
+    "source_sha256": "13c62ae9d561769c4597c2f279bf03ab25363ad64ada1e77af58c4f7979cc7a3",
+    "packaged_sha256": "13c62ae9d561769c4597c2f279bf03ab25363ad64ada1e77af58c4f7979cc7a3",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/molpcba/data.py",
+    "destination": "model/vendor/openpoints/dataset/molpcba/data.py",
+    "source_sha256": "15dc93de7aa38e7f385175b6411a967321987b622c19809da44799925768dd8a",
+    "packaged_sha256": "15dc93de7aa38e7f385175b6411a967321987b622c19809da44799925768dd8a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/__init__.py",
+    "source_sha256": "2129fcb849a7f51cce4e93ace37f8a9eec868771452d097800eff0bd9d45af49",
+    "packaged_sha256": "2129fcb849a7f51cce4e93ace37f8a9eec868771452d097800eff0bd9d45af49",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/helper_tool.py",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/helper_tool.py",
+    "source_sha256": "825a495f6023ffbd14b428623a62572d8adb5d0db8827d1d438f621b8359cb61",
+    "packaged_sha256": "825a495f6023ffbd14b428623a62572d8adb5d0db8827d1d438f621b8359cb61",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/label_mapping.yaml",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/label_mapping.yaml",
+    "source_sha256": "c39f77a2ca297f5dd43c4b5da09f343fcd0bbfeac8b923a823e14d5cd87adb62",
+    "packaged_sha256": "c39f77a2ca297f5dd43c4b5da09f343fcd0bbfeac8b923a823e14d5cd87adb62",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/semantickitti.py",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/semantickitti.py",
+    "source_sha256": "899a3aaff1957a42317031c012c0810b81a4608895c7687494d6f2fd2c6dcf73",
+    "packaged_sha256": "899a3aaff1957a42317031c012c0810b81a4608895c7687494d6f2fd2c6dcf73",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/pcqm4mv2/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/pcqm4mv2/__init__.py",
+    "source_sha256": "13c62ae9d561769c4597c2f279bf03ab25363ad64ada1e77af58c4f7979cc7a3",
+    "packaged_sha256": "13c62ae9d561769c4597c2f279bf03ab25363ad64ada1e77af58c4f7979cc7a3",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/pcqm4mv2/data.py",
+    "destination": "model/vendor/openpoints/dataset/pcqm4mv2/data.py",
+    "source_sha256": "1690f2f215b1227a549240b616c1186699727f8a40040ffa800812c69d915eea",
+    "packaged_sha256": "1690f2f215b1227a549240b616c1186699727f8a40040ffa800812c69d915eea",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/modelnet/modelnet40_normal_resampled_loader.py",
+    "destination": "model/vendor/openpoints/dataset/modelnet/modelnet40_normal_resampled_loader.py",
+    "source_sha256": "03f1251106270a7d1d51c50ba9e5be372ca21dec665975beddb40089d0893cdb",
+    "packaged_sha256": "03f1251106270a7d1d51c50ba9e5be372ca21dec665975beddb40089d0893cdb",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/modelnet/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/modelnet/__init__.py",
+    "source_sha256": "e0809ed78275000e210dab802e12e31c2e2c22c5469992014520be775e14ffd0",
+    "packaged_sha256": "e0809ed78275000e210dab802e12e31c2e2c22c5469992014520be775e14ffd0",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/modelnet/modelnet40_ply_2048_loader.py",
+    "destination": "model/vendor/openpoints/dataset/modelnet/modelnet40_ply_2048_loader.py",
+    "source_sha256": "4994841651449b41de05b02c04976585b826aa2aacf2c692ea925f292e608e28",
+    "packaged_sha256": "4994841651449b41de05b02c04976585b826aa2aacf2c692ea925f292e608e28",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/shapenet/shapenet55.py",
+    "destination": "model/vendor/openpoints/dataset/shapenet/shapenet55.py",
+    "source_sha256": "c2d1553a0f489b082e472609227d3963e622f522694fe7de4ae64b19885cf0f4",
+    "packaged_sha256": "c2d1553a0f489b082e472609227d3963e622f522694fe7de4ae64b19885cf0f4",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/shapenet/shapenetpart.py",
+    "destination": "model/vendor/openpoints/dataset/shapenet/shapenetpart.py",
+    "source_sha256": "24e861fcba87a52be467c850e593910d0c2ae9370fd46499d70282758a0f4837",
+    "packaged_sha256": "24e861fcba87a52be467c850e593910d0c2ae9370fd46499d70282758a0f4837",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/shapenet/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/shapenet/__init__.py",
+    "source_sha256": "6081694da990fed760c320e6178e8ba6c0b9d4217e175e5496191efcd07db3d5",
+    "packaged_sha256": "6081694da990fed760c320e6178e8ba6c0b9d4217e175e5496191efcd07db3d5",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/shapenetpart/shapenet55.py",
+    "destination": "model/vendor/openpoints/dataset/shapenetpart/shapenet55.py",
+    "source_sha256": "441dbc2027176285391951dec45b4af8a66bd480a605281266ac41060c34c6ad",
+    "packaged_sha256": "441dbc2027176285391951dec45b4af8a66bd480a605281266ac41060c34c6ad",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/shapenetpart/shapenetpart.py",
+    "destination": "model/vendor/openpoints/dataset/shapenetpart/shapenetpart.py",
+    "source_sha256": "d72c6ad229a41cd72e5518ec8165877736c21665a327bc938e594ee6474f5088",
+    "packaged_sha256": "d72c6ad229a41cd72e5518ec8165877736c21665a327bc938e594ee6474f5088",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/shapenetpart/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/shapenetpart/__init__.py",
+    "source_sha256": "71f40d5aa4a84e710be347af6b313c940e0bef86a3d31587ca088f8fbe87a45e",
+    "packaged_sha256": "71f40d5aa4a84e710be347af6b313c940e0bef86a3d31587ca088f8fbe87a45e",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/scanobjectnn/scanobjectnn.py",
+    "destination": "model/vendor/openpoints/dataset/scanobjectnn/scanobjectnn.py",
+    "source_sha256": "391baa7f06bad59fb4a0978b9ef995a07df9f86f89d493b85a443e6c30f773ea",
+    "packaged_sha256": "391baa7f06bad59fb4a0978b9ef995a07df9f86f89d493b85a443e6c30f773ea",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/scanobjectnn/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/scanobjectnn/__init__.py",
+    "source_sha256": "d002199290ac0596814c7f219a11bb547fa6644db44a2b4435878f244558ecda",
+    "packaged_sha256": "d002199290ac0596814c7f219a11bb547fa6644db44a2b4435878f244558ecda",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/molhiv/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/molhiv/__init__.py",
+    "source_sha256": "13c62ae9d561769c4597c2f279bf03ab25363ad64ada1e77af58c4f7979cc7a3",
+    "packaged_sha256": "13c62ae9d561769c4597c2f279bf03ab25363ad64ada1e77af58c4f7979cc7a3",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/molhiv/data.py",
+    "destination": "model/vendor/openpoints/dataset/molhiv/data.py",
+    "source_sha256": "ead1f79b5fed2e13ab67c5f5fdb14e2f264d9abfe886808431fbbc552dbfcc3f",
+    "packaged_sha256": "ead1f79b5fed2e13ab67c5f5fdb14e2f264d9abfe886808431fbbc552dbfcc3f",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/scannetv2/scannet.py",
+    "destination": "model/vendor/openpoints/dataset/scannetv2/scannet.py",
+    "source_sha256": "3a84328260ee02bbdfd9c967a2a6b4ec3a9865cd44a3b28ca61edeedb4598ac1",
+    "packaged_sha256": "3a84328260ee02bbdfd9c967a2a6b4ec3a9865cd44a3b28ca61edeedb4598ac1",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/scannetv2/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/scannetv2/__init__.py",
+    "source_sha256": "9bf1ce44da78b259a4575161616cbd2deb2cabb6d5f6368803b570ff2940ce64",
+    "packaged_sha256": "9bf1ce44da78b259a4575161616cbd2deb2cabb6d5f6368803b570ff2940ce64",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/pcqm4m/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/pcqm4m/__init__.py",
+    "source_sha256": "13c62ae9d561769c4597c2f279bf03ab25363ad64ada1e77af58c4f7979cc7a3",
+    "packaged_sha256": "13c62ae9d561769c4597c2f279bf03ab25363ad64ada1e77af58c4f7979cc7a3",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/pcqm4m/data.py",
+    "destination": "model/vendor/openpoints/dataset/pcqm4m/data.py",
+    "source_sha256": "606c822ce8a64752469d31ad3f58c244cad2543521b5d47292c8573e522dcff7",
+    "packaged_sha256": "606c822ce8a64752469d31ad3f58c244cad2543521b5d47292c8573e522dcff7",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/s3dis/s3dis.py",
+    "destination": "model/vendor/openpoints/dataset/s3dis/s3dis.py",
+    "source_sha256": "8eb7ba2ee2eba41318b48211335bdfbed3b871f9aa685c3edaae7db88728747c",
+    "packaged_sha256": "8eb7ba2ee2eba41318b48211335bdfbed3b871f9aa685c3edaae7db88728747c",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/s3dis/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/s3dis/__init__.py",
+    "source_sha256": "a0ab9e44b7dd81bf2fef33802c682cef24a3573885476201bb3dfa3ce467556c",
+    "packaged_sha256": "a0ab9e44b7dd81bf2fef33802c682cef24a3573885476201bb3dfa3ce467556c",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/s3dis/s3dis_block.py",
+    "destination": "model/vendor/openpoints/dataset/s3dis/s3dis_block.py",
+    "source_sha256": "bc0b295b847ece951b1602275a1d358ca33de6cd968e1cecf38d42d0b884c3ca",
+    "packaged_sha256": "bc0b295b847ece951b1602275a1d358ca33de6cd968e1cecf38d42d0b884c3ca",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/s3dis/s3dis_sphere.py",
+    "destination": "model/vendor/openpoints/dataset/s3dis/s3dis_sphere.py",
+    "source_sha256": "4e554937e428e0b547adaf419dc82f8a74303b59022ece47703299805ba75202",
+    "packaged_sha256": "4e554937e428e0b547adaf419dc82f8a74303b59022ece47703299805ba75202",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/atom3d/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/atom3d/__init__.py",
+    "source_sha256": "e349b8ed42e8fd49fc19e61aaedb3402fc55e562042b58ea97d14a29fa2c0407",
+    "packaged_sha256": "e349b8ed42e8fd49fc19e61aaedb3402fc55e562042b58ea97d14a29fa2c0407",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/atom3d/psr.py",
+    "destination": "model/vendor/openpoints/dataset/atom3d/psr.py",
+    "source_sha256": "28ade6c63160e1e17194adafb3b80c5ef6a555c239c7c0a3a26df0c5d30cb41a",
+    "packaged_sha256": "28ade6c63160e1e17194adafb3b80c5ef6a555c239c7c0a3a26df0c5d30cb41a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/matterport3d/matterport3d.py",
+    "destination": "model/vendor/openpoints/dataset/matterport3d/matterport3d.py",
+    "source_sha256": "14b031bf090b65daac73868dcbf3d40bd89d8bfbac4077bd67b23d2069a9bd1c",
+    "packaged_sha256": "14b031bf090b65daac73868dcbf3d40bd89d8bfbac4077bd67b23d2069a9bd1c",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/matterport3d/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/matterport3d/__init__.py",
+    "source_sha256": "07af65b66c9b9b3280fd164473c8b45af816a7562e4f08266ecdc06bd8175ca1",
+    "packaged_sha256": "07af65b66c9b9b3280fd164473c8b45af816a7562e4f08266ecdc06bd8175ca1",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/matterport3d/matterport3d_dataprocessing.py",
+    "destination": "model/vendor/openpoints/dataset/matterport3d/matterport3d_dataprocessing.py",
+    "source_sha256": "a3ad5d08c7c984daf9a7d1d2a3ee5030aa38b7ab4eb4bd70aa123915febe6a7a",
+    "packaged_sha256": "cbbbf864ce5af964e01172c5829459bc875df4456f7b7639e6ef3505ee4d6bee",
+    "modified": true
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/parsers/class_map.py",
+    "destination": "model/vendor/openpoints/dataset/parsers/class_map.py",
+    "source_sha256": "ad8aa194f629953463f3a147d426517fbe8d079cd41025f8f83f774febbe4a34",
+    "packaged_sha256": "ad8aa194f629953463f3a147d426517fbe8d079cd41025f8f83f774febbe4a34",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/parsers/parser_image_folder.py",
+    "destination": "model/vendor/openpoints/dataset/parsers/parser_image_folder.py",
+    "source_sha256": "8789ff1087b738dd34fe200b28a7e74b64880a6e02d4e28b67996fca675b13fe",
+    "packaged_sha256": "8789ff1087b738dd34fe200b28a7e74b64880a6e02d4e28b67996fca675b13fe",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/parsers/parser_factory.py",
+    "destination": "model/vendor/openpoints/dataset/parsers/parser_factory.py",
+    "source_sha256": "67a564bbd9caab595c2a0ab08ee602762778949c891fb3f27fd427a15bc76c65",
+    "packaged_sha256": "67a564bbd9caab595c2a0ab08ee602762778949c891fb3f27fd427a15bc76c65",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/parsers/parser_image_in_tar.py",
+    "destination": "model/vendor/openpoints/dataset/parsers/parser_image_in_tar.py",
+    "source_sha256": "64de1c763db35744ffff4209a243aa552d694ff47f6fdec019a36851706d3995",
+    "packaged_sha256": "64de1c763db35744ffff4209a243aa552d694ff47f6fdec019a36851706d3995",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/parsers/parser_tfds.py",
+    "destination": "model/vendor/openpoints/dataset/parsers/parser_tfds.py",
+    "source_sha256": "899e85f061b0f986ea37c0d838bb6a64b4f04308ce2c6e52a3d469b7ad789616",
+    "packaged_sha256": "899e85f061b0f986ea37c0d838bb6a64b4f04308ce2c6e52a3d469b7ad789616",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/parsers/parser.py",
+    "destination": "model/vendor/openpoints/dataset/parsers/parser.py",
+    "source_sha256": "0682326b957ef81bb25d611e6338beae0f30b17234522122bb1431921a347426",
+    "packaged_sha256": "0682326b957ef81bb25d611e6338beae0f30b17234522122bb1431921a347426",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/parsers/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/parsers/__init__.py",
+    "source_sha256": "7f57dfb8ef4f8fbe0f048db2de1d62c1ea286099532650031acf30750b9a666c",
+    "packaged_sha256": "7f57dfb8ef4f8fbe0f048db2de1d62c1ea286099532650031acf30750b9a666c",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/parsers/constants.py",
+    "destination": "model/vendor/openpoints/dataset/parsers/constants.py",
+    "source_sha256": "5f87ae95f56239cae7f3f93e0308ba2d318714ae6f64a5de4bc7b16c3fcab53e",
+    "packaged_sha256": "5f87ae95f56239cae7f3f93e0308ba2d318714ae6f64a5de4bc7b16c3fcab53e",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/parsers/parser_image_tar.py",
+    "destination": "model/vendor/openpoints/dataset/parsers/parser_image_tar.py",
+    "source_sha256": "31d691e5a8f381cbcbd4a0e48209369885f1010d3dda246024c9749357898962",
+    "packaged_sha256": "31d691e5a8f381cbcbd4a0e48209369885f1010d3dda246024c9749357898962",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/graph_dataset/svd_encodings_dataset.py",
+    "destination": "model/vendor/openpoints/dataset/graph_dataset/svd_encodings_dataset.py",
+    "source_sha256": "339491d057548d520ceeffa20fe4d48402235c183658664edbf2e18f2795a19f",
+    "packaged_sha256": "339491d057548d520ceeffa20fe4d48402235c183658664edbf2e18f2795a19f",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/graph_dataset/__init__.py",
+    "destination": "model/vendor/openpoints/dataset/graph_dataset/__init__.py",
+    "source_sha256": "906379aa01fc92df798ad9d73f2e33ef233f6c9631c730324d8077af235c6e69",
+    "packaged_sha256": "906379aa01fc92df798ad9d73f2e33ef233f6c9631c730324d8077af235c6e69",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/graph_dataset/graph_dataset.py",
+    "destination": "model/vendor/openpoints/dataset/graph_dataset/graph_dataset.py",
+    "source_sha256": "d92adf26dffdc8744223221ffcad8bc33b99621643989c3c51cd3d1bdc63311b",
+    "packaged_sha256": "d92adf26dffdc8744223221ffcad8bc33b99621643989c3c51cd3d1bdc63311b",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/graph_dataset/stack_with_pad.py",
+    "destination": "model/vendor/openpoints/dataset/graph_dataset/stack_with_pad.py",
+    "source_sha256": "39dfc678c3627c8df0cd72e306be35924df1bf70aa533122dd711d83f7774862",
+    "packaged_sha256": "39dfc678c3627c8df0cd72e306be35924df1bf70aa533122dd711d83f7774862",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/graph_dataset/structural_dataset.py",
+    "destination": "model/vendor/openpoints/dataset/graph_dataset/structural_dataset.py",
+    "source_sha256": "2fa948c25afa3e0d08bf5bf67a42d17f5f2d8be420588ee33fbaabfc66e7fabb",
+    "packaged_sha256": "2fa948c25afa3e0d08bf5bf67a42d17f5f2d8be420588ee33fbaabfc66e7fabb",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/preprocess/data_pre.py",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/preprocess/data_pre.py",
+    "source_sha256": "080591063f6f1d1334b139c13a7558dfaa8a9b6c743642353f2fdceab4b44d77",
+    "packaged_sha256": "3a51ab41210d13797553ec59b98deb841bd11da9a2a619ee70d7ff89518c1550",
+    "modified": true
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/data_prepare_semantickitti.py",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/data_prepare_semantickitti.py",
+    "source_sha256": "736e80e5764abab0376ada1b766bf0df97e1afd555917e3947b3c647980420e0",
+    "packaged_sha256": "bd85661fbe7336eb7a0adad8e588c421e6e21e054c8ea1f800bd123d180c6f11",
+    "modified": true
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/6_fold_cv.py",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/6_fold_cv.py",
+    "source_sha256": "1b0c010fc644f53a4b44ddb58eaec87dc67cdb871faa8f65a1306bfbf6028d1f",
+    "packaged_sha256": "75539fee0299c905106069fb3d157192f598edf9a661924ece9ae5ca1c129fd3",
+    "modified": true
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/data_prepare_s3dis.py",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/data_prepare_s3dis.py",
+    "source_sha256": "21659bde735c482eed42dd102685fe3d183526aa0952f2d6049d80c9886c78c3",
+    "packaged_sha256": "36e1e0938196866f2a31e2974b37e905ffb6be3523cb95f4827cc4b8db0d7731",
+    "modified": true
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/semantic-kitti.yaml",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/semantic-kitti.yaml",
+    "source_sha256": "c39f77a2ca297f5dd43c4b5da09f343fcd0bbfeac8b923a823e14d5cd87adb62",
+    "packaged_sha256": "c39f77a2ca297f5dd43c4b5da09f343fcd0bbfeac8b923a823e14d5cd87adb62",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/data_prepare_semantic3d.py",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/data_prepare_semantic3d.py",
+    "source_sha256": "0712fad6a77a3ab2e156eea40e89855343cbf068c871c257226c06e86e1d6023",
+    "packaged_sha256": "14fddd2f3aa71de81aa3d1aef9348018bc308148ee06ac621240945789586914",
+    "modified": true
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/nanoflann.hpp",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/nanoflann.hpp",
+    "source_sha256": "2f2db69e7ebf90769e9b8b0effb983db5479d532e22b4ccf2194f4299ad058cc",
+    "packaged_sha256": "2f2db69e7ebf90769e9b8b0effb983db5479d532e22b4ccf2194f4299ad058cc",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/knn_.h",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/knn_.h",
+    "source_sha256": "76605abc92f1100c4672c07866333219bf906db1f34f5c6bf9f18311bb9e9adb",
+    "packaged_sha256": "76605abc92f1100c4672c07866333219bf906db1f34f5c6bf9f18311bb9e9adb",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/knn.cpp",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/knn.cpp",
+    "source_sha256": "632e090602060ed382027c5d198a068864b09f5ea7a80b37a21e90f7b5f66904",
+    "packaged_sha256": "65824169e1b8d19c044301117fea8c24b53372aef17fe432acb8d8d5ddfedc3c",
+    "modified": true
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/knn_.cxx",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/knn_.cxx",
+    "source_sha256": "2120fe9d01effed84837cb239531512d05702aa042be9e8064218cd083a78818",
+    "packaged_sha256": "2120fe9d01effed84837cb239531512d05702aa042be9e8064218cd083a78818",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/KDTreeTableAdaptor.h",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/KDTreeTableAdaptor.h",
+    "source_sha256": "3f3a41c5004ca4429c1a0cf9f1f565ff61e1c6ccb20430272cccb1a31c3ad402",
+    "packaged_sha256": "3f3a41c5004ca4429c1a0cf9f1f565ff61e1c6ccb20430272cccb1a31c3ad402",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/setup.py",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/setup.py",
+    "source_sha256": "0b6d0ab7a962198a6524c49cde0d5d05f157e0fe67efed2cab76809c95181d2a",
+    "packaged_sha256": "0b6d0ab7a962198a6524c49cde0d5d05f157e0fe67efed2cab76809c95181d2a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/knn.pyx",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/knn.pyx",
+    "source_sha256": "312d3c67b792807b59ff67a8f4f7ee2f19d5455f79b30c476090c62b63c0a245",
+    "packaged_sha256": "312d3c67b792807b59ff67a8f4f7ee2f19d5455f79b30c476090c62b63c0a245",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/test.py",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/nearest_neighbors/test.py",
+    "source_sha256": "c080f09dad858a833ad2c0e9def0656b001ca6911bdb61ff22820cf124fb18f1",
+    "packaged_sha256": "c080f09dad858a833ad2c0e9def0656b001ca6911bdb61ff22820cf124fb18f1",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/meta/anno_paths.txt",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/meta/anno_paths.txt",
+    "source_sha256": "32b6c62f399fd0712f8d936696dc7690bb668bbc779290ed5bdd8a80c9ba276d",
+    "packaged_sha256": "32b6c62f399fd0712f8d936696dc7690bb668bbc779290ed5bdd8a80c9ba276d",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/meta/class_names.txt",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/meta/class_names.txt",
+    "source_sha256": "0a699c78eca1af4d841535024bb1f982a01f869336717eb9adc2839102edf985",
+    "packaged_sha256": "0a699c78eca1af4d841535024bb1f982a01f869336717eb9adc2839102edf985",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_subsampling/wrapper.cpp",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_subsampling/wrapper.cpp",
+    "source_sha256": "80aa762dc4bee5bc5930c6cdf5f6ce5d2fa683050c432f51dd2bebbe1db05c2a",
+    "packaged_sha256": "80aa762dc4bee5bc5930c6cdf5f6ce5d2fa683050c432f51dd2bebbe1db05c2a",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_subsampling/setup.py",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_subsampling/setup.py",
+    "source_sha256": "b1dfa76b2a0ad523fb475ad3443709af5632afa1c61b7f3b325aa67e026dd4d4",
+    "packaged_sha256": "b1dfa76b2a0ad523fb475ad3443709af5632afa1c61b7f3b325aa67e026dd4d4",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_subsampling/grid_subsampling/grid_subsampling.h",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_subsampling/grid_subsampling/grid_subsampling.h",
+    "source_sha256": "1fe14330a1ebb8081ffa80f185eab5aef120b34f715e9f3cc5ca93dd0eb79cd7",
+    "packaged_sha256": "1fe14330a1ebb8081ffa80f185eab5aef120b34f715e9f3cc5ca93dd0eb79cd7",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_subsampling/grid_subsampling/grid_subsampling.cpp",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_subsampling/grid_subsampling/grid_subsampling.cpp",
+    "source_sha256": "d398c9a92c8aebd482e47a9cd1a825c15e410ab9da1faaa06c9fd2e5cfa77583",
+    "packaged_sha256": "d398c9a92c8aebd482e47a9cd1a825c15e410ab9da1faaa06c9fd2e5cfa77583",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_utils/cloud/cloud.cpp",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_utils/cloud/cloud.cpp",
+    "source_sha256": "dc2982368c7c50cb8e9f2899f96f1e47cf65c7c33103877de5e481d0d1a3c17b",
+    "packaged_sha256": "dc2982368c7c50cb8e9f2899f96f1e47cf65c7c33103877de5e481d0d1a3c17b",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_utils/cloud/cloud.h",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_utils/cloud/cloud.h",
+    "source_sha256": "5e40e29bf5bc70c12e3d1ad70507926f371a8741a10ad8a7078bb04a5d7add56",
+    "packaged_sha256": "5e40e29bf5bc70c12e3d1ad70507926f371a8741a10ad8a7078bb04a5d7add56",
+    "modified": false
+  },
+  {
+    "source": "external/test_point/codepakge/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_utils/nanoflann/nanoflann.hpp",
+    "destination": "model/vendor/openpoints/dataset/semantic_kitti/utils/cpp_wrappers/cpp_utils/nanoflann/nanoflann.hpp",
+    "source_sha256": "0655ba43dcf3be6fc0af4985bb41186520dc3d16f350cce3b6f8f6544361d951",
+    "packaged_sha256": "0655ba43dcf3be6fc0af4985bb41186520dc3d16f350cce3b6f8f6544361d951",
+    "modified": false
+  }
+]

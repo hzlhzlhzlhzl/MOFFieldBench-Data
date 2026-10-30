@@ -1,0 +1,24 @@
+{
+  "target_column": "landfill-gas-vpsa__selectivity",
+  "point_cloud_variant": "density_0.02",
+  "num_points": 8192,
+  "model_name": "x3d",
+  "feature_blocks": [
+    "xyz",
+    "density",
+    "frac_pe"
+  ],
+  "frac_pe_frequencies": 2,
+  "target_transform": "none",
+  "dataset_sizes": {
+    "train": 19777,
+    "val": 2470,
+    "test": 2472
+  },
+  "best_val_rmse": 2.4579546451568604,
+  "test_metrics": {
+    "mae": 0.9283235669136047,
+    "rmse": 2.34445858001709,
+    "r2": 0.34724021576424136
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "dataset_sizes": {
+    "train": 32291,
+    "val": 4036,
+    "test": 4037
+  },
+  "best_val_metrics": {
+    "cif_to_point": {
+      "Recall@1": 0.538404360753221,
+      "Recall@5": 0.8634786917740337,
+      "Recall@10": 0.9224479682854311,
+      "MRR": 0.6794878121901848,
+      "MedianRank": 1.0
+    },
+    "point_to_cif": {
+      "Recall@1": 0.5418731417244796,
+      "Recall@5": 0.8505946481665014,
+      "Recall@10": 0.9197224975222993,
+      "MRR": 0.6788012103062487,
+      "MedianRank": 1.0
+    }
+  },
+  "best_test_metrics": {
+    "cif_to_point": {
+      "Recall@1": 0.5469407976219965,
+      "Recall@5": 0.8674758484022789,
+      "Recall@10": 0.9254396829328709,
+      "MRR": 0.6858772661712141,
+      "MedianRank": 1.0
+    },
+    "point_to_cif": {
+      "Recall@1": 0.5578399801833044,
+      "Recall@5": 0.8563289571463958,
+      "Recall@10": 0.9187515481793411,
+      "MRR": 0.6893304283428606,
+      "MedianRank": 1.0
+    }
+  },
+  "output_dir": "outputs_full/cifed_d002_n6144_fpe2"
+}

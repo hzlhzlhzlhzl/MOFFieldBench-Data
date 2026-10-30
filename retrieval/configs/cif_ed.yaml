@@ -1,0 +1,18 @@
+seed: 42
+data:
+  cif_root: ./data/cifs
+  ed_root: ./data/point_clouds/ed
+  density_dir: density_0.02
+  num_points: 6144
+  feature_blocks: [xyz, density, frac_pe]
+  frac_pe_frequencies: 2
+  normalize_xyz: true
+  augment: true
+  cache_data: false
+  split: {train_ratio: 0.8, val_ratio: 0.1, test_ratio: 0.1}
+  cif_graph: {max_num_nbr: 12, radius: 8.0, dmin: 0.0, step: 0.2}
+model:
+  cif_encoder: {atom_fea_len: 64, n_conv: 3, h_fea_len: 128, n_h: 1}
+  ed_encoder: {width: 32, blocks: [1, 3, 5, 3, 3], strides: [1, 4, 4, 4, 4], nsample: 32, radius: 0.2, aggr_feature_type: dp_fj, expansion: 1, sa_layers: 1, sa_use_res: false, x3d_layers: [false, false, false, true, true]}
+  projection: {embedding_dim: 256, dropout: 0.1}
+training: {output_dir: ./runs/cif_ed, device: cuda, require_cuda: true, epochs: 200, batch_size: 48, num_workers: 2, pin_memory: true, prefetch_factor: 2, lr: 0.0003, weight_decay: 0.0001, temperature: 0.07}

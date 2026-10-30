@@ -1,0 +1,1 @@
+"""Vendored OpenPoints model components."""

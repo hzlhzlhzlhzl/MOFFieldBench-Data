@@ -1,0 +1,90 @@
+{
+  "models/charge3net/LICENSE": {
+    "source": "test_gen/charge3net/LICENSE",
+    "sha256": "b205476e31759004443ab45d504fe850aac0cfc31bc6399a442081fd2f826a25"
+  },
+  "models/charge3net/src/__init__.py": {
+    "source": "test_gen/charge3net/src/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "models/charge3net/src/utils/data.py": {
+    "source": "test_gen/charge3net/src/utils/data.py",
+    "sha256": "9ec3b43e0790aeffa648c3bbcb072fdf93a6c01728f2ace2fe089599741c7b23"
+  },
+  "models/charge3net/src/charge3net/models/e3.py": {
+    "source": "test_gen/charge3net/src/charge3net/models/e3.py",
+    "sha256": "f94f8df925fad0c75b20d30742b4527e0c9b51195d99117ea955e8e755d13acf"
+  },
+  "models/charge3net/src/charge3net/models/scheduler.py": {
+    "source": "test_gen/charge3net/src/charge3net/models/scheduler.py",
+    "sha256": "1767e3f369e8d3280f9ea738c529c3d0663ae9d2e3f37e17f422768a51bc2f38"
+  },
+  "models/charge3net/src/charge3net/data/dataset.py": {
+    "source": "test_gen/charge3net/src/charge3net/data/dataset.py",
+    "sha256": "c0ce1a7ff55ad7f91e25d19f08c8548d8c2649e46d8372961da40cb8c06ee017"
+  },
+  "models/charge3net/src/charge3net/data/split.py": {
+    "source": "test_gen/charge3net/src/charge3net/data/split.py",
+    "sha256": "717cf3e829b7499a65cd5fad8b8f1abfe1fc4acceb2d52bfe7d350ba868e0e29"
+  },
+  "models/charge3net/src/charge3net/data/__init__.py": {
+    "source": "test_gen/charge3net/src/charge3net/data/__init__.py",
+    "sha256": "33a0cad996b2ff138d1f1c1e6264689b92905e119aee36d7969d9d504b23f4a5"
+  },
+  "models/charge3net/src/charge3net/data/layer.py": {
+    "source": "test_gen/charge3net/src/charge3net/data/layer.py",
+    "sha256": "32ce80026b732011793c228e2f9eb9f06320859fa0b6a209f3df87b50c7dda71"
+  },
+  "models/charge3net/src/charge3net/data/collate.py": {
+    "source": "test_gen/charge3net/src/charge3net/data/collate.py",
+    "sha256": "6e585b17aa29595b3836e0e6688a164a51b5c9c0179e04ad89d6fefe2ebadac3"
+  },
+  "models/charge3net/src/charge3net/data/graph_construction.py": {
+    "source": "test_gen/charge3net/src/charge3net/data/graph_construction.py",
+    "sha256": "90b68597f7c373edecca850a9d977cc53ea3564e9d13958704ce36c5460a84d4"
+  },
+  "third_party/cp3d/MANIFEST.in": {
+    "source": "cp3d/MANIFEST.in",
+    "sha256": "8f15a106de14105a60d458f1d710c31654e4a89284da480085e88edf7b6e3305"
+  },
+  "third_party/cp3d/pyproject.toml": {
+    "source": "cp3d/pyproject.toml",
+    "sha256": "15275444834a0ab5ba4c029619d63cd0686c7c4d2f001e694f86e9bbec9b8efe"
+  },
+  "third_party/cp3d/README.md": {
+    "source": "cp3d/README.md",
+    "sha256": "c6d1ddd339c39fb452b81d6da2cd7b13b8e22af431990fc14b02ee7d68fd2489"
+  },
+  "third_party/cp3d/src/cp3d/_v2.py": {
+    "source": "cp3d/src/cp3d/_v2.py",
+    "sha256": "0412786309b1182d307e5b4c66a70a8ce42cd88f917d3088d7b22603fe2dc4b3"
+  },
+  "third_party/cp3d/src/cp3d/py.typed": {
+    "source": "cp3d/src/cp3d/py.typed",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  "third_party/cp3d/src/cp3d/_v1.py": {
+    "source": "cp3d/src/cp3d/_v1.py",
+    "sha256": "3567a6038dc6679af9042c4b6178e48f17175f72f389bf5ca4e6c4ef4eb69d38"
+  },
+  "third_party/cp3d/src/cp3d/_cube.py": {
+    "source": "cp3d/src/cp3d/_cube.py",
+    "sha256": "5882688c00c33b7d58236520e42d724be8c14d38ef260a386f059b01fa931d6d"
+  },
+  "third_party/cp3d/src/cp3d/api.py": {
+    "source": "cp3d/src/cp3d/api.py",
+    "sha256": "cd861ec40a51aa72489a61c5df631aed4a15e881cbabc8fafdcf95e37eb67ae2"
+  },
+  "third_party/cp3d/src/cp3d/_dpcm.py": {
+    "source": "cp3d/src/cp3d/_dpcm.py",
+    "sha256": "ae66f0250619e45c37787d083512d5e88e7c812dbf7f835a099c662f9b3e15b2"
+  },
+  "third_party/cp3d/src/cp3d/cli.py": {
+    "source": "cp3d/src/cp3d/cli.py",
+    "sha256": "b9bbd153046a87979ca1ae12fc85bd1c9a4012dce390b9bdb914cddaef29b8d0"
+  },
+  "third_party/cp3d/src/cp3d/__init__.py": {
+    "source": "cp3d/src/cp3d/__init__.py",
+    "sha256": "68f657b91d49c16200b390a7158cb2b31d5c2184567bb8d63256fadf06ab584e"
+  }
+}

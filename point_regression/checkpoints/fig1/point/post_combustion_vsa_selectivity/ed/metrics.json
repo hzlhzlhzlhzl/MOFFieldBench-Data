@@ -1,0 +1,23 @@
+{
+  "target_column": "post-combustion-vsa__selectivity",
+  "point_cloud_variant": "density_0.03",
+  "num_points": 4096,
+  "model_name": "x3d",
+  "feature_blocks": [
+    "xyz",
+    "density",
+    "frac_pe"
+  ],
+  "frac_pe_frequencies": 2,
+  "dataset_sizes": {
+    "train": 19877,
+    "val": 2484,
+    "test": 2486
+  },
+  "best_val_rmse": 31.390531539916992,
+  "test_metrics": {
+    "mae": 14.57056713104248,
+    "rmse": 28.381662368774414,
+    "r2": 0.6947034696439126
+  }
+}

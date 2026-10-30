@@ -1,0 +1,7 @@
+# Use the established x3d environment for CUDA/OpenPoints extensions.
+torch
+numpy
+pandas
+scikit-learn
+tqdm
+PyYAML

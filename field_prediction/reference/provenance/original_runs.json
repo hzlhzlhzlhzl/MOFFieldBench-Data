@@ -1,0 +1,76 @@
+{
+  "ed": {
+    "original_checkpoint": "external/mof_cp2k/test_gen/training_runs/ed_paired_cp3d_random/checkpoint_latest.pt",
+    "evaluation_metadata": {
+      "target": "ed",
+      "checkpoint": "external/mof_cp2k/test_gen/training_runs/ed_paired_cp3d_random/checkpoint_latest.pt",
+      "checkpoint_step": 157000,
+      "checkpoint_epoch": 8,
+      "checkpoint_sha256": "bc34cb98f635034ad67fe0c06a68f97dc881e0ee0605633dbcdf2d200a4f8346",
+      "manifest": "external/mof_cp2k/test_gen/training_runs/paired_cp3d_random/manifest.json",
+      "split_file": "external/mof_cp2k/test_gen/training_runs/paired_cp3d_random/split_40345.json",
+      "test_materials_requested": 1009,
+      "probes_per_material_per_region": 2000,
+      "distance_candidates_per_material": 100000,
+      "inference_chunk": 512,
+      "seed": 20261003,
+      "ed_threshold_units": "electron/angstrom^3 (reference ED converted from electron/Bohr^3)",
+      "esp_percentile_definition": "per-MOF reference-field percentile; top >= (100-p)th, bottom <= pth",
+      "distance_definition": "nearest periodic atom from 3x3x3 atom images; ranges [left,right) angstrom",
+      "distance_sampling": "uniform random grid candidates per MOF, conditioned on distance bin",
+      "aggregate_definition": "pooled sampled grid points across completed test MOFs",
+      "zone_names": [
+        "uniform",
+        "gt_0.1_e_per_angstrom3",
+        "gt_0.08_e_per_angstrom3",
+        "gt_0.05_e_per_angstrom3",
+        "gt_0.03_e_per_angstrom3",
+        "gt_0.02_e_per_angstrom3",
+        "gt_0.01_e_per_angstrom3",
+        "distance_0_1_angstrom",
+        "distance_1_2_angstrom",
+        "distance_2_3_angstrom",
+        "distance_3_4_angstrom"
+      ],
+      "test_materials_completed": 1009,
+      "failures": []
+    }
+  },
+  "esp": {
+    "original_checkpoint": "external/mof_cp2k/test_gen/evaluation/esp_test_ecdf_size/checkpoint_step294000.pt",
+    "evaluation_metadata": {
+      "target": "esp",
+      "checkpoint": "external/mof_cp2k/test_gen/evaluation/esp_test_ecdf_size/checkpoint_step294000.pt",
+      "checkpoint_step": 294000,
+      "checkpoint_epoch": 15,
+      "checkpoint_sha256": "efbb831b17c3841afa0c587d8d5004e8d9d9b441d57e60caca5cbac6ef89114a",
+      "manifest": "external/mof_cp2k/test_gen/training_runs/paired_cp3d_random/manifest.json",
+      "split_file": "external/mof_cp2k/test_gen/training_runs/paired_cp3d_random/split_40345.json",
+      "test_materials_requested": 1009,
+      "probes_per_material_per_region": 2000,
+      "distance_candidates_per_material": 100000,
+      "inference_chunk": 512,
+      "seed": 20261003,
+      "ed_threshold_units": "electron/angstrom^3 (reference ED converted from electron/Bohr^3)",
+      "esp_percentile_definition": "per-MOF reference-field percentile; top >= (100-p)th, bottom <= pth",
+      "distance_definition": "nearest periodic atom from 3x3x3 atom images; ranges [left,right) angstrom",
+      "distance_sampling": "uniform random grid candidates per MOF, conditioned on distance bin",
+      "aggregate_definition": "pooled sampled grid points across completed test MOFs",
+      "zone_names": [
+        "uniform",
+        "top_3pct",
+        "bottom_3pct",
+        "top_5pct",
+        "bottom_5pct",
+        "top_7pct",
+        "bottom_7pct",
+        "distance_0_1_angstrom",
+        "distance_1_2_angstrom",
+        "distance_2_3_angstrom",
+        "distance_3_4_angstrom"
+      ],
+      "test_materials_completed": 1009,
+      "failures": []
+    }
+  }
+}

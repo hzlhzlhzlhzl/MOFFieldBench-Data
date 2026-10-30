@@ -1,0 +1,24 @@
+{
+  "target_column": "methane-storage-psa__mmol/g_working_capacity",
+  "point_cloud_variant": "density_0.02",
+  "num_points": 8192,
+  "model_name": "x3d",
+  "feature_blocks": [
+    "xyz",
+    "density",
+    "frac_pe"
+  ],
+  "frac_pe_frequencies": 3,
+  "target_transform": "none",
+  "dataset_sizes": {
+    "train": 19877,
+    "val": 2484,
+    "test": 2486
+  },
+  "best_val_rmse": 1.2836999893188477,
+  "test_metrics": {
+    "mae": 0.8668673634529114,
+    "rmse": 1.3256365060806274,
+    "r2": 0.9305556564576701
+  }
+}

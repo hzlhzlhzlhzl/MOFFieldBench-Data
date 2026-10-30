@@ -1,0 +1,18 @@
+# Central registry: edit only this file when moving raw datasets.
+# No raw data is shipped in this package.  Each modality has its own root because
+# ED and ESP can live on different filesystems.
+property_17160:
+  labels: ${MOF_PROPERTY_LABELS:-data/labels/selected_mofs_wide.csv}
+  ed_root: ${MOF_ED_ROOT:-/path/to/ED_fps/non_periodic}
+  esp_root: ${MOF_ESP_ROOT:-/path/to/EPS_fps/non_periodic}
+  variants:
+    density_0.02: {modality: ed, file: density_gt_0.02_nonperiodic_fps_{num_points}.ply}
+    density_0.03: {modality: ed, file: density_gt_0.03_nonperiodic_fps_{num_points}.ply}
+    density_0.05: {modality: ed, file: density_gt_0.05_nonperiodic_fps_{num_points}.ply}
+    density_0.08: {modality: ed, file: density_gt_0.08_nonperiodic_fps_{num_points}.ply}
+    density_0.1:  {modality: ed, file: density_gt_0.1_nonperiodic_fps_{num_points}.ply}
+    esp_highest_lowest_3pct: {modality: esp, file: esp_highest_lowest_3pct_nonperiodic_fps_{num_points}.ply}
+    esp_highest_lowest_5pct: {modality: esp, file: esp_highest_lowest_5pct_nonperiodic_fps_{num_points}.ply}
+    esp_highest_lowest_7pct: {modality: esp, file: esp_highest_lowest_7pct_nonperiodic_fps_{num_points}.ply}
+qmof_bandgap:
+  manifest: ${QMOF_MANIFEST:-data/manifests/qmof_bandgap_manifest.csv}

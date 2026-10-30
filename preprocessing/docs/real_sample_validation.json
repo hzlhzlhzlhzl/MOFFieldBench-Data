@@ -1,0 +1,32 @@
+{
+  "material": "mof_1730",
+  "vertices": 6144,
+  "original_shape": [
+    192,
+    288,
+    288
+  ],
+  "downsampled_shape": [
+    154,
+    230,
+    230
+  ],
+  "candidate_counts": {
+    "lowest": 407330,
+    "highest": 407331
+  },
+  "same_vertex_records": true,
+  "max_absolute_difference_by_column": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "esp": 0.0,
+    "frac_x": 0.0,
+    "frac_y": 0.0,
+    "frac_z": 0.0
+  },
+  "coordinate_unit": "bohr",
+  "device": "physical GPU 3 (CUDA_VISIBLE_DEVICES=3, cuda:0)",
+  "temporary_output": "external/mof_codepackage_real_ecvoseez",
+  "reference_output": "external/EPS_fps/non_periodic/esp_highest_lowest_5pct/mof_1730/nonperiodic_fps/esp_highest_lowest_5pct_nonperiodic_fps_6144.ply"
+}

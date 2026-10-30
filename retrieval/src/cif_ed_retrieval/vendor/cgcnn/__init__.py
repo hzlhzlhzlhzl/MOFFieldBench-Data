@@ -1,0 +1,1 @@
+"""Vendored CGCNN model implementation."""
