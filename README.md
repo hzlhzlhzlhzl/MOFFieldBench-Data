@@ -2,7 +2,9 @@
 
 Research code for MOF electron density (ED), electrostatic potential (ESP), and crystal structures. The collection covers field preprocessing, field prediction, point-cloud property regression, cross-modal retrieval, and multimodal property prediction.
 
+## Data availability
 
+The MOFFieldBench dataset is available on [Hugging Face](https://huggingface.co/datasets/dgklr/MOFFieldBench/).
 
 ## Material identifiers
 
